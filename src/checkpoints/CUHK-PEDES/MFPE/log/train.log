@@ -1,0 +1,1419 @@
+Namespace(GPU_id='1', adam_alpha=0.9, adam_beta=0.999, batch_size=64, caption_length_max=100, class_num=11000, cr_beta=0.1, dataroot='../dataset/CUHK-PEDES', dataset='CUHK-PEDES', device=device(type='cuda', index=1), epoch=60, epoch_decay=[20, 40], feature_length=1024, last_lstm=False, lr=0.001, margin=0.2, mode='train', model_name='MFNI_bert_stride3', part=6, pkl_root='../dataset/CUHK-PEDES/bert_processed_data/', resume='restart', save_path='./checkpoints/CUHK-PEDES/MFNI_bert_stride3', stride=1, vocab_size=5000, wordtype='bert')
+lr:0.001
+lr:0.0001
+Epoch: 1/60 Setp: 50, ranking_loss: 23.43, id_loss: 40.05, mn_loss: 6.48215
+Epoch: 1/60 Setp: 100, ranking_loss: 24.49, id_loss: 32.97, mn_loss: 0.85360
+Epoch: 1/60 Setp: 150, ranking_loss: 24.23, id_loss: 31.52, mn_loss: 0.80351
+Epoch: 1/60 Setp: 200, ranking_loss: 21.66, id_loss: 30.11, mn_loss: 0.52695
+Epoch: 1/60 Setp: 250, ranking_loss: 20.84, id_loss: 29.03, mn_loss: 0.43449
+Epoch: 1/60 Setp: 300, ranking_loss: 19.15, id_loss: 29.41, mn_loss: 0.45513
+Epoch: 1/60 Setp: 350, ranking_loss: 16.85, id_loss: 27.32, mn_loss: 0.50417
+Epoch: 1/60 Setp: 400, ranking_loss: 16.76, id_loss: 27.24, mn_loss: 0.43921
+Epoch: 1/60 Setp: 450, ranking_loss: 16.98, id_loss: 26.91, mn_loss: 0.50945
+Epoch: 1/60 Setp: 500, ranking_loss: 15.03, id_loss: 25.50, mn_loss: 0.40360
+Epoch: 1/60 Setp: 550, ranking_loss: 13.16, id_loss: 23.65, mn_loss: 0.46920
+Epoch: 1/60 Setp: 600, ranking_loss: 13.77, id_loss: 24.42, mn_loss: 0.42496
+Epoch: 1/60 Setp: 650, ranking_loss: 14.05, id_loss: 23.88, mn_loss: 0.41574
+Epoch: 1/60 Setp: 700, ranking_loss: 12.65, id_loss: 23.30, mn_loss: 0.54940
+Epoch: 1/60 Setp: 750, ranking_loss: 13.32, id_loss: 20.13, mn_loss: 0.41132
+Epoch: 1/60 Setp: 800, ranking_loss: 13.71, id_loss: 22.78, mn_loss: 0.42860
+Epoch: 1/60 Setp: 850, ranking_loss: 12.35, id_loss: 21.81, mn_loss: 0.43394
+Epoch: 1/60 Setp: 900, ranking_loss: 11.59, id_loss: 20.78, mn_loss: 0.38224
+Epoch: 1/60 Setp: 950, ranking_loss: 11.79, id_loss: 20.53, mn_loss: 0.44372
+Epoch: 1/60 Setp: 1000, ranking_loss: 12.63, id_loss: 21.12, mn_loss: 0.42631
+Epoch: 1/60 Setp: 1050, ranking_loss: 12.51, id_loss: 20.32, mn_loss: 0.39622
+Epoch: 1/60 , ranking_loss: 16.65, id_loss: 26.07, mn_loss: 0.67985
+lr:0.001
+lr:0.0001
+Epoch: 2/60 Setp: 50, ranking_loss: 13.25, id_loss: 20.11, mn_loss: 0.43227
+Epoch: 2/60 Setp: 100, ranking_loss: 10.81, id_loss: 17.59, mn_loss: 0.48425
+Epoch: 2/60 Setp: 150, ranking_loss: 10.38, id_loss: 18.97, mn_loss: 0.40937
+Epoch: 2/60 Setp: 200, ranking_loss: 9.57, id_loss: 17.07, mn_loss: 0.47843
+Epoch: 2/60 Setp: 250, ranking_loss: 12.20, id_loss: 17.62, mn_loss: 0.44810
+Epoch: 2/60 Setp: 300, ranking_loss: 10.55, id_loss: 18.17, mn_loss: 0.46309
+Epoch: 2/60 Setp: 350, ranking_loss: 10.37, id_loss: 18.52, mn_loss: 0.48943
+Epoch: 2/60 Setp: 400, ranking_loss: 9.52, id_loss: 17.75, mn_loss: 0.44370
+Epoch: 2/60 Setp: 450, ranking_loss: 11.24, id_loss: 18.45, mn_loss: 0.42632
+Epoch: 2/60 Setp: 500, ranking_loss: 11.38, id_loss: 17.84, mn_loss: 0.41056
+Epoch: 2/60 Setp: 550, ranking_loss: 12.44, id_loss: 15.29, mn_loss: 0.37697
+Epoch: 2/60 Setp: 600, ranking_loss: 9.53, id_loss: 15.84, mn_loss: 0.41351
+Epoch: 2/60 Setp: 650, ranking_loss: 10.03, id_loss: 15.50, mn_loss: 0.40177
+Epoch: 2/60 Setp: 700, ranking_loss: 11.14, id_loss: 17.90, mn_loss: 0.43843
+Epoch: 2/60 Setp: 750, ranking_loss: 9.98, id_loss: 17.37, mn_loss: 0.39070
+Epoch: 2/60 Setp: 800, ranking_loss: 10.70, id_loss: 15.14, mn_loss: 0.41718
+Epoch: 2/60 Setp: 850, ranking_loss: 10.38, id_loss: 16.32, mn_loss: 0.43831
+Epoch: 2/60 Setp: 900, ranking_loss: 9.67, id_loss: 15.88, mn_loss: 0.42177
+Epoch: 2/60 Setp: 950, ranking_loss: 7.57, id_loss: 14.92, mn_loss: 0.43998
+Epoch: 2/60 Setp: 1000, ranking_loss: 7.71, id_loss: 14.48, mn_loss: 0.39397
+Epoch: 2/60 Setp: 1050, ranking_loss: 11.20, id_loss: 15.77, mn_loss: 0.42799
+Epoch: 2/60 , ranking_loss: 10.59, id_loss: 16.99, mn_loss: 0.42599
+lr:0.001
+lr:0.0001
+Epoch: 3/60 Setp: 50, ranking_loss: 10.89, id_loss: 13.24, mn_loss: 0.42137
+Epoch: 3/60 Setp: 100, ranking_loss: 8.57, id_loss: 13.46, mn_loss: 0.39426
+Epoch: 3/60 Setp: 150, ranking_loss: 8.28, id_loss: 12.35, mn_loss: 0.44670
+Epoch: 3/60 Setp: 200, ranking_loss: 8.13, id_loss: 12.91, mn_loss: 0.39623
+Epoch: 3/60 Setp: 250, ranking_loss: 8.78, id_loss: 12.71, mn_loss: 0.46011
+Epoch: 3/60 Setp: 300, ranking_loss: 9.69, id_loss: 12.51, mn_loss: 0.43586
+Epoch: 3/60 Setp: 350, ranking_loss: 9.59, id_loss: 13.33, mn_loss: 0.44908
+Epoch: 3/60 Setp: 400, ranking_loss: 9.44, id_loss: 13.33, mn_loss: 0.43574
+Epoch: 3/60 Setp: 450, ranking_loss: 9.86, id_loss: 12.92, mn_loss: 0.42198
+Epoch: 3/60 Setp: 500, ranking_loss: 10.32, id_loss: 12.68, mn_loss: 0.39177
+Epoch: 3/60 Setp: 550, ranking_loss: 9.48, id_loss: 12.59, mn_loss: 0.38319
+Epoch: 3/60 Setp: 600, ranking_loss: 8.04, id_loss: 12.25, mn_loss: 0.46646
+Epoch: 3/60 Setp: 650, ranking_loss: 8.35, id_loss: 13.78, mn_loss: 0.38371
+Epoch: 3/60 Setp: 700, ranking_loss: 10.66, id_loss: 13.43, mn_loss: 0.46074
+Epoch: 3/60 Setp: 750, ranking_loss: 8.85, id_loss: 12.58, mn_loss: 0.37956
+Epoch: 3/60 Setp: 800, ranking_loss: 8.93, id_loss: 11.78, mn_loss: 0.39542
+Epoch: 3/60 Setp: 850, ranking_loss: 7.41, id_loss: 12.08, mn_loss: 0.36573
+Epoch: 3/60 Setp: 900, ranking_loss: 9.19, id_loss: 12.99, mn_loss: 0.42949
+Epoch: 3/60 Setp: 950, ranking_loss: 7.92, id_loss: 11.13, mn_loss: 0.38129
+Epoch: 3/60 Setp: 1000, ranking_loss: 8.15, id_loss: 12.34, mn_loss: 0.41871
+Epoch: 3/60 Setp: 1050, ranking_loss: 6.68, id_loss: 11.73, mn_loss: 0.47004
+Epoch: 3/60 , ranking_loss: 8.94, id_loss: 12.88, mn_loss: 0.41471
+lr:0.001
+lr:0.0001
+Epoch: 4/60 Setp: 50, ranking_loss: 7.47, id_loss: 10.59, mn_loss: 0.40205
+Epoch: 4/60 Setp: 100, ranking_loss: 10.24, id_loss: 10.09, mn_loss: 0.43986
+Epoch: 4/60 Setp: 150, ranking_loss: 9.05, id_loss: 11.59, mn_loss: 0.40870
+Epoch: 4/60 Setp: 200, ranking_loss: 5.27, id_loss: 10.37, mn_loss: 0.43966
+Epoch: 4/60 Setp: 250, ranking_loss: 7.21, id_loss: 10.82, mn_loss: 0.47692
+Epoch: 4/60 Setp: 300, ranking_loss: 8.07, id_loss: 11.57, mn_loss: 0.45681
+Epoch: 4/60 Setp: 350, ranking_loss: 9.36, id_loss: 10.51, mn_loss: 0.53378
+Epoch: 4/60 Setp: 400, ranking_loss: 8.63, id_loss: 11.75, mn_loss: 0.45018
+Epoch: 4/60 Setp: 450, ranking_loss: 9.14, id_loss: 10.72, mn_loss: 0.45426
+Epoch: 4/60 Setp: 500, ranking_loss: 8.63, id_loss: 11.25, mn_loss: 0.37952
+Epoch: 4/60 Setp: 550, ranking_loss: 8.43, id_loss: 12.55, mn_loss: 0.42135
+Epoch: 4/60 Setp: 600, ranking_loss: 7.70, id_loss: 10.00, mn_loss: 0.39538
+Epoch: 4/60 Setp: 650, ranking_loss: 7.95, id_loss: 10.66, mn_loss: 0.39439
+Epoch: 4/60 Setp: 700, ranking_loss: 8.13, id_loss: 10.78, mn_loss: 0.64752
+Epoch: 4/60 Setp: 750, ranking_loss: 8.92, id_loss: 11.39, mn_loss: 0.38552
+Epoch: 4/60 Setp: 800, ranking_loss: 8.25, id_loss: 10.89, mn_loss: 0.42644
+Epoch: 4/60 Setp: 850, ranking_loss: 6.69, id_loss: 10.52, mn_loss: 0.46099
+Epoch: 4/60 Setp: 900, ranking_loss: 7.41, id_loss: 11.61, mn_loss: 0.52441
+Epoch: 4/60 Setp: 950, ranking_loss: 9.92, id_loss: 10.96, mn_loss: 0.46875
+Epoch: 4/60 Setp: 1000, ranking_loss: 5.90, id_loss: 10.50, mn_loss: 0.39774
+Epoch: 4/60 Setp: 1050, ranking_loss: 5.97, id_loss: 10.52, mn_loss: 0.39673
+Epoch: 4/60 , ranking_loss: 7.85, id_loss: 10.59, mn_loss: 0.42345
+lr:0.001
+lr:0.0001
+Epoch: 5/60 Setp: 50, ranking_loss: 7.11, id_loss: 9.06, mn_loss: 0.41314
+Epoch: 5/60 Setp: 100, ranking_loss: 6.04, id_loss: 7.94, mn_loss: 0.34770
+Epoch: 5/60 Setp: 150, ranking_loss: 8.31, id_loss: 10.15, mn_loss: 0.52317
+Epoch: 5/60 Setp: 200, ranking_loss: 6.85, id_loss: 8.77, mn_loss: 0.42034
+Epoch: 5/60 Setp: 250, ranking_loss: 7.46, id_loss: 8.29, mn_loss: 0.39309
+Epoch: 5/60 Setp: 300, ranking_loss: 6.94, id_loss: 8.54, mn_loss: 0.42958
+Epoch: 5/60 Setp: 350, ranking_loss: 5.34, id_loss: 8.60, mn_loss: 0.41023
+Epoch: 5/60 Setp: 400, ranking_loss: 6.70, id_loss: 9.11, mn_loss: 0.36248
+Epoch: 5/60 Setp: 450, ranking_loss: 5.62, id_loss: 9.04, mn_loss: 0.37505
+Epoch: 5/60 Setp: 500, ranking_loss: 7.52, id_loss: 8.29, mn_loss: 0.52407
+Epoch: 5/60 Setp: 550, ranking_loss: 5.87, id_loss: 7.99, mn_loss: 0.36050
+Epoch: 5/60 Setp: 600, ranking_loss: 6.43, id_loss: 9.26, mn_loss: 0.43006
+Epoch: 5/60 Setp: 650, ranking_loss: 7.49, id_loss: 9.26, mn_loss: 0.41914
+Epoch: 5/60 Setp: 700, ranking_loss: 6.06, id_loss: 8.08, mn_loss: 0.44822
+Epoch: 5/60 Setp: 750, ranking_loss: 6.40, id_loss: 8.89, mn_loss: 0.36072
+Epoch: 5/60 Setp: 800, ranking_loss: 7.22, id_loss: 10.90, mn_loss: 0.48777
+Epoch: 5/60 Setp: 850, ranking_loss: 7.23, id_loss: 9.20, mn_loss: 0.43831
+Epoch: 5/60 Setp: 900, ranking_loss: 9.25, id_loss: 10.88, mn_loss: 0.41179
+Epoch: 5/60 Setp: 950, ranking_loss: 6.28, id_loss: 9.61, mn_loss: 0.40786
+Epoch: 5/60 Setp: 1000, ranking_loss: 7.42, id_loss: 9.20, mn_loss: 0.42455
+Epoch: 5/60 Setp: 1050, ranking_loss: 8.79, id_loss: 9.03, mn_loss: 0.48472
+Epoch: 5/60 , ranking_loss: 7.11, id_loss: 9.02, mn_loss: 0.41556
+lr:0.001
+lr:0.0001
+Epoch: 6/60 Setp: 50, ranking_loss: 6.30, id_loss: 8.05, mn_loss: 0.38179
+Epoch: 6/60 Setp: 100, ranking_loss: 5.11, id_loss: 7.09, mn_loss: 0.32908
+Epoch: 6/60 Setp: 150, ranking_loss: 6.00, id_loss: 7.52, mn_loss: 0.44444
+Epoch: 6/60 Setp: 200, ranking_loss: 6.94, id_loss: 8.01, mn_loss: 0.36351
+Epoch: 6/60 Setp: 250, ranking_loss: 7.06, id_loss: 7.87, mn_loss: 0.53578
+Epoch: 6/60 Setp: 300, ranking_loss: 5.02, id_loss: 7.22, mn_loss: 0.38825
+Epoch: 6/60 Setp: 350, ranking_loss: 7.51, id_loss: 7.50, mn_loss: 0.36438
+Epoch: 6/60 Setp: 400, ranking_loss: 7.33, id_loss: 7.11, mn_loss: 0.34260
+Epoch: 6/60 Setp: 450, ranking_loss: 7.24, id_loss: 8.11, mn_loss: 0.43279
+Epoch: 6/60 Setp: 500, ranking_loss: 7.89, id_loss: 8.29, mn_loss: 0.36854
+Epoch: 6/60 Setp: 550, ranking_loss: 6.37, id_loss: 8.54, mn_loss: 0.33987
+Epoch: 6/60 Setp: 600, ranking_loss: 6.62, id_loss: 7.90, mn_loss: 0.38085
+Epoch: 6/60 Setp: 650, ranking_loss: 7.35, id_loss: 8.06, mn_loss: 0.43128
+Epoch: 6/60 Setp: 700, ranking_loss: 5.71, id_loss: 9.27, mn_loss: 0.30350
+Epoch: 6/60 Setp: 750, ranking_loss: 6.46, id_loss: 8.33, mn_loss: 0.29057
+Epoch: 6/60 Setp: 800, ranking_loss: 6.19, id_loss: 7.14, mn_loss: 0.40039
+Epoch: 6/60 Setp: 850, ranking_loss: 6.60, id_loss: 8.21, mn_loss: 0.41560
+Epoch: 6/60 Setp: 900, ranking_loss: 4.88, id_loss: 7.84, mn_loss: 0.25054
+Epoch: 6/60 Setp: 950, ranking_loss: 4.98, id_loss: 7.10, mn_loss: 0.24612
+Epoch: 6/60 Setp: 1000, ranking_loss: 7.08, id_loss: 7.26, mn_loss: 0.43707
+Epoch: 6/60 Setp: 1050, ranking_loss: 7.71, id_loss: 8.31, mn_loss: 0.53956
+Epoch: 6/60 , ranking_loss: 6.55, id_loss: 7.84, mn_loss: 0.38236
+lr:0.001
+lr:0.0001
+Epoch: 7/60 Setp: 50, ranking_loss: 4.87, id_loss: 5.56, mn_loss: 0.47078
+Epoch: 7/60 Setp: 100, ranking_loss: 6.20, id_loss: 5.74, mn_loss: 0.20620
+Epoch: 7/60 Setp: 150, ranking_loss: 7.05, id_loss: 6.84, mn_loss: 0.25938
+Epoch: 7/60 Setp: 200, ranking_loss: 6.13, id_loss: 6.93, mn_loss: 0.90790
+Epoch: 7/60 Setp: 250, ranking_loss: 4.60, id_loss: 6.69, mn_loss: 0.21741
+Epoch: 7/60 Setp: 300, ranking_loss: 6.90, id_loss: 6.43, mn_loss: 0.27934
+Epoch: 7/60 Setp: 350, ranking_loss: 5.09, id_loss: 6.76, mn_loss: 0.21274
+Epoch: 7/60 Setp: 400, ranking_loss: 4.91, id_loss: 6.17, mn_loss: 0.33619
+Epoch: 7/60 Setp: 450, ranking_loss: 7.14, id_loss: 6.45, mn_loss: 0.32664
+Epoch: 7/60 Setp: 500, ranking_loss: 6.74, id_loss: 6.57, mn_loss: 0.28797
+Epoch: 7/60 Setp: 550, ranking_loss: 7.62, id_loss: 7.85, mn_loss: 0.32169
+Epoch: 7/60 Setp: 600, ranking_loss: 6.82, id_loss: 6.93, mn_loss: 0.31081
+Epoch: 7/60 Setp: 650, ranking_loss: 6.06, id_loss: 6.87, mn_loss: 0.32776
+Epoch: 7/60 Setp: 700, ranking_loss: 5.49, id_loss: 7.31, mn_loss: 0.32495
+Epoch: 7/60 Setp: 750, ranking_loss: 5.31, id_loss: 6.42, mn_loss: 0.36149
+Epoch: 7/60 Setp: 800, ranking_loss: 7.18, id_loss: 7.68, mn_loss: 0.35561
+Epoch: 7/60 Setp: 850, ranking_loss: 6.51, id_loss: 8.16, mn_loss: 0.38140
+Epoch: 7/60 Setp: 900, ranking_loss: 7.48, id_loss: 6.37, mn_loss: 0.35560
+Epoch: 7/60 Setp: 950, ranking_loss: 5.06, id_loss: 6.54, mn_loss: 0.16434
+Epoch: 7/60 Setp: 1000, ranking_loss: 5.50, id_loss: 5.77, mn_loss: 0.25360
+Epoch: 7/60 Setp: 1050, ranking_loss: 6.64, id_loss: 7.26, mn_loss: 0.15301
+Epoch: 7/60 , ranking_loss: 6.05, id_loss: 6.85, mn_loss: 0.29487
+lr:0.001
+lr:0.0001
+Epoch: 8/60 Setp: 50, ranking_loss: 3.94, id_loss: 5.09, mn_loss: 0.13330
+Epoch: 8/60 Setp: 100, ranking_loss: 4.75, id_loss: 4.93, mn_loss: 0.25349
+Epoch: 8/60 Setp: 150, ranking_loss: 4.13, id_loss: 4.78, mn_loss: 0.18757
+Epoch: 8/60 Setp: 200, ranking_loss: 4.69, id_loss: 5.47, mn_loss: 0.10611
+Epoch: 8/60 Setp: 250, ranking_loss: 5.42, id_loss: 5.71, mn_loss: 0.24245
+Epoch: 8/60 Setp: 300, ranking_loss: 6.25, id_loss: 6.55, mn_loss: 0.14626
+Epoch: 8/60 Setp: 350, ranking_loss: 4.71, id_loss: 5.45, mn_loss: 0.18408
+Epoch: 8/60 Setp: 400, ranking_loss: 5.05, id_loss: 4.87, mn_loss: 0.18491
+Epoch: 8/60 Setp: 450, ranking_loss: 5.43, id_loss: 5.97, mn_loss: 0.27202
+Epoch: 8/60 Setp: 500, ranking_loss: 4.74, id_loss: 5.77, mn_loss: 0.34465
+Epoch: 8/60 Setp: 550, ranking_loss: 8.53, id_loss: 6.60, mn_loss: 0.17693
+Epoch: 8/60 Setp: 600, ranking_loss: 8.07, id_loss: 6.86, mn_loss: 0.25810
+Epoch: 8/60 Setp: 650, ranking_loss: 5.99, id_loss: 6.62, mn_loss: 0.28486
+Epoch: 8/60 Setp: 700, ranking_loss: 6.21, id_loss: 6.88, mn_loss: 0.12911
+Epoch: 8/60 Setp: 750, ranking_loss: 7.05, id_loss: 5.84, mn_loss: 0.58694
+Epoch: 8/60 Setp: 800, ranking_loss: 7.37, id_loss: 7.28, mn_loss: 0.15748
+Epoch: 8/60 Setp: 850, ranking_loss: 5.86, id_loss: 6.84, mn_loss: 0.30611
+Epoch: 8/60 Setp: 900, ranking_loss: 7.57, id_loss: 7.10, mn_loss: 0.12200
+Epoch: 8/60 Setp: 950, ranking_loss: 3.89, id_loss: 6.58, mn_loss: 0.17028
+Epoch: 8/60 Setp: 1000, ranking_loss: 7.40, id_loss: 6.94, mn_loss: 0.45611
+Epoch: 8/60 Setp: 1050, ranking_loss: 3.64, id_loss: 5.32, mn_loss: 0.10468
+Epoch: 8/60 , ranking_loss: 5.54, id_loss: 6.02, mn_loss: 0.23154
+lr:0.001
+lr:0.0001
+Epoch: 9/60 Setp: 50, ranking_loss: 5.08, id_loss: 4.72, mn_loss: 0.21425
+Epoch: 9/60 Setp: 100, ranking_loss: 3.80, id_loss: 4.29, mn_loss: 0.21404
+Epoch: 9/60 Setp: 150, ranking_loss: 4.35, id_loss: 4.19, mn_loss: 0.19509
+Epoch: 9/60 Setp: 200, ranking_loss: 5.54, id_loss: 4.33, mn_loss: 0.19013
+Epoch: 9/60 Setp: 250, ranking_loss: 4.67, id_loss: 4.14, mn_loss: 0.14039
+Epoch: 9/60 Setp: 300, ranking_loss: 6.73, id_loss: 5.55, mn_loss: 0.47209
+Epoch: 9/60 Setp: 350, ranking_loss: 5.08, id_loss: 4.64, mn_loss: 0.26030
+Epoch: 9/60 Setp: 400, ranking_loss: 6.79, id_loss: 5.61, mn_loss: 0.06330
+Epoch: 9/60 Setp: 450, ranking_loss: 4.40, id_loss: 6.35, mn_loss: 0.22866
+Epoch: 9/60 Setp: 500, ranking_loss: 4.19, id_loss: 5.71, mn_loss: 0.23961
+Epoch: 9/60 Setp: 550, ranking_loss: 7.65, id_loss: 6.14, mn_loss: 0.37671
+Epoch: 9/60 Setp: 600, ranking_loss: 5.30, id_loss: 4.19, mn_loss: 0.35326
+Epoch: 9/60 Setp: 650, ranking_loss: 6.57, id_loss: 6.09, mn_loss: 0.24583
+Epoch: 9/60 Setp: 700, ranking_loss: 4.89, id_loss: 6.23, mn_loss: 0.18525
+Epoch: 9/60 Setp: 750, ranking_loss: 5.79, id_loss: 6.33, mn_loss: 0.15028
+Epoch: 9/60 Setp: 800, ranking_loss: 4.69, id_loss: 4.94, mn_loss: 0.08430
+Epoch: 9/60 Setp: 850, ranking_loss: 5.21, id_loss: 4.78, mn_loss: 0.19024
+Epoch: 9/60 Setp: 900, ranking_loss: 5.09, id_loss: 5.32, mn_loss: 0.23853
+Epoch: 9/60 Setp: 950, ranking_loss: 5.45, id_loss: 5.39, mn_loss: 0.15670
+Epoch: 9/60 Setp: 1000, ranking_loss: 5.62, id_loss: 6.89, mn_loss: 0.30234
+Epoch: 9/60 Setp: 1050, ranking_loss: 5.48, id_loss: 4.90, mn_loss: 0.26201
+Epoch: 9/60 , ranking_loss: 5.25, id_loss: 5.33, mn_loss: 0.21143
+lr:0.001
+lr:0.0001
+Epoch: 10/60 Setp: 50, ranking_loss: 4.89, id_loss: 4.40, mn_loss: 0.12962
+Epoch: 10/60 Setp: 100, ranking_loss: 4.21, id_loss: 3.54, mn_loss: -0.00325
+Epoch: 10/60 Setp: 150, ranking_loss: 3.83, id_loss: 3.70, mn_loss: 0.17410
+Epoch: 10/60 Setp: 200, ranking_loss: 7.26, id_loss: 4.53, mn_loss: 0.22474
+Epoch: 10/60 Setp: 250, ranking_loss: 5.25, id_loss: 3.98, mn_loss: 0.22350
+Epoch: 10/60 Setp: 300, ranking_loss: 5.74, id_loss: 3.94, mn_loss: 0.17289
+Epoch: 10/60 Setp: 350, ranking_loss: 4.61, id_loss: 5.02, mn_loss: 0.30208
+Epoch: 10/60 Setp: 400, ranking_loss: 5.24, id_loss: 6.92, mn_loss: 0.14750
+Epoch: 10/60 Setp: 450, ranking_loss: 5.17, id_loss: 4.67, mn_loss: 0.17231
+Epoch: 10/60 Setp: 500, ranking_loss: 5.87, id_loss: 4.59, mn_loss: 0.15076
+Epoch: 10/60 Setp: 550, ranking_loss: 4.27, id_loss: 4.91, mn_loss: 0.08738
+Epoch: 10/60 Setp: 600, ranking_loss: 3.42, id_loss: 4.26, mn_loss: 0.27325
+Epoch: 10/60 Setp: 650, ranking_loss: 5.48, id_loss: 4.39, mn_loss: 0.17559
+Epoch: 10/60 Setp: 700, ranking_loss: 5.88, id_loss: 6.14, mn_loss: 0.12699
+Epoch: 10/60 Setp: 750, ranking_loss: 6.39, id_loss: 5.06, mn_loss: 0.13775
+Epoch: 10/60 Setp: 800, ranking_loss: 3.38, id_loss: 5.36, mn_loss: 0.16750
+Epoch: 10/60 Setp: 850, ranking_loss: 3.05, id_loss: 4.13, mn_loss: 0.14951
+Epoch: 10/60 Setp: 900, ranking_loss: 4.64, id_loss: 5.01, mn_loss: 0.30166
+Epoch: 10/60 Setp: 950, ranking_loss: 4.41, id_loss: 4.96, mn_loss: 0.10883
+Epoch: 10/60 Setp: 1000, ranking_loss: 4.63, id_loss: 4.16, mn_loss: 0.09323
+Epoch: 10/60 Setp: 1050, ranking_loss: 5.77, id_loss: 6.92, mn_loss: 0.25683
+Epoch: 10/60 , ranking_loss: 4.91, id_loss: 4.70, mn_loss: 0.18740
+lr:0.001
+lr:0.0001
+Epoch: 11/60 Setp: 50, ranking_loss: 3.80, id_loss: 5.45, mn_loss: 0.16906
+Epoch: 11/60 Setp: 100, ranking_loss: 2.89, id_loss: 2.55, mn_loss: 0.09116
+Epoch: 11/60 Setp: 150, ranking_loss: 3.25, id_loss: 4.06, mn_loss: 0.09469
+Epoch: 11/60 Setp: 200, ranking_loss: 5.39, id_loss: 3.58, mn_loss: 0.09309
+Epoch: 11/60 Setp: 250, ranking_loss: 4.20, id_loss: 4.91, mn_loss: 0.17429
+Epoch: 11/60 Setp: 300, ranking_loss: 5.95, id_loss: 3.74, mn_loss: 0.18194
+Epoch: 11/60 Setp: 350, ranking_loss: 5.52, id_loss: 3.74, mn_loss: 0.24214
+Epoch: 11/60 Setp: 400, ranking_loss: 3.85, id_loss: 4.07, mn_loss: 0.11087
+Epoch: 11/60 Setp: 450, ranking_loss: 5.93, id_loss: 3.79, mn_loss: 0.30800
+Epoch: 11/60 Setp: 500, ranking_loss: 4.00, id_loss: 3.90, mn_loss: 0.09631
+Epoch: 11/60 Setp: 550, ranking_loss: 5.97, id_loss: 4.61, mn_loss: 0.30858
+Epoch: 11/60 Setp: 600, ranking_loss: 4.95, id_loss: 4.39, mn_loss: 0.10790
+Epoch: 11/60 Setp: 650, ranking_loss: 4.50, id_loss: 3.50, mn_loss: 0.12679
+Epoch: 11/60 Setp: 700, ranking_loss: 5.61, id_loss: 4.78, mn_loss: 0.18856
+Epoch: 11/60 Setp: 750, ranking_loss: 6.49, id_loss: 5.05, mn_loss: 0.34368
+Epoch: 11/60 Setp: 800, ranking_loss: 5.29, id_loss: 4.81, mn_loss: 0.06190
+Epoch: 11/60 Setp: 850, ranking_loss: 4.65, id_loss: 4.30, mn_loss: 0.18037
+Epoch: 11/60 Setp: 900, ranking_loss: 3.94, id_loss: 4.26, mn_loss: 0.12562
+Epoch: 11/60 Setp: 950, ranking_loss: 5.20, id_loss: 3.80, mn_loss: 0.10820
+Epoch: 11/60 Setp: 1000, ranking_loss: 3.33, id_loss: 5.56, mn_loss: 0.16393
+Epoch: 11/60 Setp: 1050, ranking_loss: 4.52, id_loss: 5.00, mn_loss: 0.05065
+Epoch: 11/60 , ranking_loss: 4.64, id_loss: 4.27, mn_loss: 0.16703
+lr:0.001
+lr:0.0001
+Epoch: 12/60 Setp: 50, ranking_loss: 4.24, id_loss: 2.93, mn_loss: 0.21763
+Epoch: 12/60 Setp: 100, ranking_loss: 6.11, id_loss: 4.13, mn_loss: 0.36389
+Epoch: 12/60 Setp: 150, ranking_loss: 3.47, id_loss: 3.13, mn_loss: 0.11267
+Epoch: 12/60 Setp: 200, ranking_loss: 3.19, id_loss: 4.39, mn_loss: 0.20043
+Epoch: 12/60 Setp: 250, ranking_loss: 4.33, id_loss: 2.44, mn_loss: 0.11587
+Epoch: 12/60 Setp: 300, ranking_loss: 5.20, id_loss: 4.05, mn_loss: 0.13919
+Epoch: 12/60 Setp: 350, ranking_loss: 5.14, id_loss: 4.35, mn_loss: 0.04660
+Epoch: 12/60 Setp: 400, ranking_loss: 5.36, id_loss: 4.70, mn_loss: 0.21838
+Epoch: 12/60 Setp: 450, ranking_loss: 4.79, id_loss: 4.23, mn_loss: 0.25345
+Epoch: 12/60 Setp: 500, ranking_loss: 2.58, id_loss: 3.75, mn_loss: 0.20544
+Epoch: 12/60 Setp: 550, ranking_loss: 5.34, id_loss: 5.30, mn_loss: 0.32605
+Epoch: 12/60 Setp: 600, ranking_loss: 4.60, id_loss: 2.98, mn_loss: 0.07217
+Epoch: 12/60 Setp: 650, ranking_loss: 3.95, id_loss: 3.51, mn_loss: 0.12095
+Epoch: 12/60 Setp: 700, ranking_loss: 5.07, id_loss: 3.80, mn_loss: 0.02098
+Epoch: 12/60 Setp: 750, ranking_loss: 7.03, id_loss: 4.26, mn_loss: 0.21563
+Epoch: 12/60 Setp: 800, ranking_loss: 4.10, id_loss: 3.96, mn_loss: 0.18169
+Epoch: 12/60 Setp: 850, ranking_loss: 3.21, id_loss: 3.63, mn_loss: 0.12559
+Epoch: 12/60 Setp: 900, ranking_loss: 2.87, id_loss: 3.44, mn_loss: 0.28517
+Epoch: 12/60 Setp: 950, ranking_loss: 3.79, id_loss: 4.48, mn_loss: 0.26356
+Epoch: 12/60 Setp: 1000, ranking_loss: 4.20, id_loss: 3.44, mn_loss: 0.17469
+Epoch: 12/60 Setp: 1050, ranking_loss: 3.97, id_loss: 5.25, mn_loss: 0.15364
+Epoch: 12/60 , ranking_loss: 4.35, id_loss: 3.83, mn_loss: 0.15397
+lr:0.001
+lr:0.0001
+Epoch: 13/60 Setp: 50, ranking_loss: 3.89, id_loss: 4.74, mn_loss: 0.16413
+Epoch: 13/60 Setp: 100, ranking_loss: 4.33, id_loss: 2.62, mn_loss: 0.06117
+Epoch: 13/60 Setp: 150, ranking_loss: 2.79, id_loss: 4.55, mn_loss: 0.10346
+Epoch: 13/60 Setp: 200, ranking_loss: 3.73, id_loss: 2.11, mn_loss: 0.18848
+Epoch: 13/60 Setp: 250, ranking_loss: 3.68, id_loss: 4.21, mn_loss: 0.04873
+Epoch: 13/60 Setp: 300, ranking_loss: 6.14, id_loss: 3.39, mn_loss: 0.18561
+Epoch: 13/60 Setp: 350, ranking_loss: 3.82, id_loss: 3.88, mn_loss: 0.14432
+Epoch: 13/60 Setp: 400, ranking_loss: 4.91, id_loss: 3.65, mn_loss: 0.12866
+Epoch: 13/60 Setp: 450, ranking_loss: 5.27, id_loss: 3.75, mn_loss: 0.02973
+Epoch: 13/60 Setp: 500, ranking_loss: 3.83, id_loss: 2.75, mn_loss: 0.17520
+Epoch: 13/60 Setp: 550, ranking_loss: 4.38, id_loss: 3.81, mn_loss: 0.14493
+Epoch: 13/60 Setp: 600, ranking_loss: 4.17, id_loss: 3.16, mn_loss: 0.19318
+Epoch: 13/60 Setp: 650, ranking_loss: 3.33, id_loss: 2.66, mn_loss: 0.27566
+Epoch: 13/60 Setp: 700, ranking_loss: 4.74, id_loss: 3.52, mn_loss: 0.13866
+Epoch: 13/60 Setp: 750, ranking_loss: 4.29, id_loss: 5.26, mn_loss: 0.02359
+Epoch: 13/60 Setp: 800, ranking_loss: 5.15, id_loss: 3.97, mn_loss: 0.14159
+Epoch: 13/60 Setp: 850, ranking_loss: 3.83, id_loss: 4.00, mn_loss: 0.20335
+Epoch: 13/60 Setp: 900, ranking_loss: 3.89, id_loss: 3.82, mn_loss: 0.23068
+Epoch: 13/60 Setp: 950, ranking_loss: 5.12, id_loss: 3.25, mn_loss: 0.27114
+Epoch: 13/60 Setp: 1000, ranking_loss: 4.26, id_loss: 3.52, mn_loss: 0.09555
+Epoch: 13/60 Setp: 1050, ranking_loss: 4.73, id_loss: 4.76, mn_loss: 0.07403
+Epoch: 13/60 , ranking_loss: 4.17, id_loss: 3.46, mn_loss: 0.13958
+lr:0.001
+lr:0.0001
+Epoch: 14/60 Setp: 50, ranking_loss: 2.68, id_loss: 3.37, mn_loss: 0.18378
+Epoch: 14/60 Setp: 100, ranking_loss: 3.21, id_loss: 2.36, mn_loss: 0.25834
+Epoch: 14/60 Setp: 150, ranking_loss: 4.48, id_loss: 2.29, mn_loss: 0.21241
+Epoch: 14/60 Setp: 200, ranking_loss: 3.62, id_loss: 3.12, mn_loss: 0.08445
+Epoch: 14/60 Setp: 250, ranking_loss: 2.94, id_loss: 3.41, mn_loss: 0.21911
+Epoch: 14/60 Setp: 300, ranking_loss: 4.25, id_loss: 3.53, mn_loss: 0.36739
+Epoch: 14/60 Setp: 350, ranking_loss: 3.55, id_loss: 3.52, mn_loss: 0.23626
+Epoch: 14/60 Setp: 400, ranking_loss: 2.78, id_loss: 2.48, mn_loss: 0.12098
+Epoch: 14/60 Setp: 450, ranking_loss: 3.47, id_loss: 3.67, mn_loss: 0.03016
+Epoch: 14/60 Setp: 500, ranking_loss: 4.10, id_loss: 3.68, mn_loss: 0.07802
+Epoch: 14/60 Setp: 550, ranking_loss: 3.72, id_loss: 3.07, mn_loss: 0.13650
+Epoch: 14/60 Setp: 600, ranking_loss: 4.01, id_loss: 2.82, mn_loss: 0.29261
+Epoch: 14/60 Setp: 650, ranking_loss: 4.86, id_loss: 3.89, mn_loss: 0.24413
+Epoch: 14/60 Setp: 700, ranking_loss: 4.19, id_loss: 3.51, mn_loss: 0.13198
+Epoch: 14/60 Setp: 750, ranking_loss: 3.59, id_loss: 4.65, mn_loss: 0.19069
+Epoch: 14/60 Setp: 800, ranking_loss: 4.62, id_loss: 4.21, mn_loss: 0.10213
+Epoch: 14/60 Setp: 850, ranking_loss: 3.72, id_loss: 4.41, mn_loss: 0.29046
+Epoch: 14/60 Setp: 900, ranking_loss: 2.84, id_loss: 2.58, mn_loss: 0.03982
+Epoch: 14/60 Setp: 950, ranking_loss: 3.60, id_loss: 3.43, mn_loss: 0.06483
+Epoch: 14/60 Setp: 1000, ranking_loss: 4.11, id_loss: 3.95, mn_loss: 0.03849
+Epoch: 14/60 Setp: 1050, ranking_loss: 5.24, id_loss: 3.25, mn_loss: 0.04910
+Epoch: 14/60 , ranking_loss: 3.96, id_loss: 3.20, mn_loss: 0.13306
+lr:0.001
+lr:0.0001
+Epoch: 15/60 Setp: 50, ranking_loss: 3.20, id_loss: 2.00, mn_loss: 0.11229
+Epoch: 15/60 Setp: 100, ranking_loss: 4.55, id_loss: 2.58, mn_loss: 0.08924
+Epoch: 15/60 Setp: 150, ranking_loss: 3.80, id_loss: 2.26, mn_loss: 0.06264
+Epoch: 15/60 Setp: 200, ranking_loss: 3.23, id_loss: 3.67, mn_loss: 0.15732
+Epoch: 15/60 Setp: 250, ranking_loss: 3.05, id_loss: 2.57, mn_loss: 0.27552
+Epoch: 15/60 Setp: 300, ranking_loss: 2.90, id_loss: 2.85, mn_loss: 0.44663
+Epoch: 15/60 Setp: 350, ranking_loss: 2.41, id_loss: 2.61, mn_loss: 0.11542
+Epoch: 15/60 Setp: 400, ranking_loss: 3.69, id_loss: 2.64, mn_loss: 0.01827
+Epoch: 15/60 Setp: 450, ranking_loss: 4.42, id_loss: 2.72, mn_loss: 0.00537
+Epoch: 15/60 Setp: 500, ranking_loss: 3.58, id_loss: 4.26, mn_loss: 0.24339
+Epoch: 15/60 Setp: 550, ranking_loss: 3.45, id_loss: 3.43, mn_loss: 0.27875
+Epoch: 15/60 Setp: 600, ranking_loss: 3.61, id_loss: 3.11, mn_loss: 0.08729
+Epoch: 15/60 Setp: 650, ranking_loss: 4.10, id_loss: 2.80, mn_loss: 0.23905
+Epoch: 15/60 Setp: 700, ranking_loss: 6.08, id_loss: 2.18, mn_loss: 0.28654
+Epoch: 15/60 Setp: 750, ranking_loss: 4.93, id_loss: 4.63, mn_loss: 0.24457
+Epoch: 15/60 Setp: 800, ranking_loss: 5.92, id_loss: 2.50, mn_loss: 0.12640
+Epoch: 15/60 Setp: 850, ranking_loss: 3.19, id_loss: 3.62, mn_loss: 0.11891
+Epoch: 15/60 Setp: 900, ranking_loss: 3.53, id_loss: 2.58, mn_loss: 0.22960
+Epoch: 15/60 Setp: 950, ranking_loss: 3.77, id_loss: 2.62, mn_loss: 0.13641
+Epoch: 15/60 Setp: 1000, ranking_loss: 4.61, id_loss: 2.87, mn_loss: 0.12513
+Epoch: 15/60 Setp: 1050, ranking_loss: 3.59, id_loss: 4.76, mn_loss: 0.29165
+Epoch: 15/60 , ranking_loss: 3.77, id_loss: 2.89, mn_loss: 0.11852
+lr:0.001
+lr:0.0001
+Epoch: 16/60 Setp: 50, ranking_loss: 2.91, id_loss: 2.76, mn_loss: 0.06371
+Epoch: 16/60 Setp: 100, ranking_loss: 2.89, id_loss: 2.09, mn_loss: 0.07878
+Epoch: 16/60 Setp: 150, ranking_loss: 4.13, id_loss: 2.24, mn_loss: 0.30884
+Epoch: 16/60 Setp: 200, ranking_loss: 3.26, id_loss: 2.23, mn_loss: 0.11078
+Epoch: 16/60 Setp: 250, ranking_loss: 2.54, id_loss: 1.95, mn_loss: 0.11458
+Epoch: 16/60 Setp: 300, ranking_loss: 3.71, id_loss: 2.81, mn_loss: 0.08592
+Epoch: 16/60 Setp: 350, ranking_loss: 2.27, id_loss: 1.77, mn_loss: 0.01400
+Epoch: 16/60 Setp: 400, ranking_loss: 4.18, id_loss: 2.90, mn_loss: 0.07525
+Epoch: 16/60 Setp: 450, ranking_loss: 4.02, id_loss: 2.92, mn_loss: 0.10873
+Epoch: 16/60 Setp: 500, ranking_loss: 2.56, id_loss: 1.86, mn_loss: 0.06075
+Epoch: 16/60 Setp: 550, ranking_loss: 4.17, id_loss: 2.32, mn_loss: 0.13407
+Epoch: 16/60 Setp: 600, ranking_loss: 3.46, id_loss: 2.38, mn_loss: 0.03988
+Epoch: 16/60 Setp: 650, ranking_loss: 3.55, id_loss: 1.79, mn_loss: 0.00584
+Epoch: 16/60 Setp: 700, ranking_loss: 2.71, id_loss: 5.13, mn_loss: -0.00465
+Epoch: 16/60 Setp: 750, ranking_loss: 3.03, id_loss: 2.02, mn_loss: 0.02608
+Epoch: 16/60 Setp: 800, ranking_loss: 3.21, id_loss: 2.23, mn_loss: 0.14817
+Epoch: 16/60 Setp: 850, ranking_loss: 4.22, id_loss: 3.49, mn_loss: 0.19823
+Epoch: 16/60 Setp: 900, ranking_loss: 3.48, id_loss: 3.01, mn_loss: 0.16794
+Epoch: 16/60 Setp: 950, ranking_loss: 5.36, id_loss: 2.96, mn_loss: 0.11668
+Epoch: 16/60 Setp: 1000, ranking_loss: 4.28, id_loss: 3.52, mn_loss: 0.17287
+Epoch: 16/60 Setp: 1050, ranking_loss: 2.92, id_loss: 3.35, mn_loss: 0.13930
+Epoch: 16/60 , ranking_loss: 3.57, id_loss: 2.57, mn_loss: 0.11212
+lr:0.001
+lr:0.0001
+Epoch: 17/60 Setp: 50, ranking_loss: 2.76, id_loss: 1.62, mn_loss: 0.14812
+Epoch: 17/60 Setp: 100, ranking_loss: 2.45, id_loss: 2.16, mn_loss: 0.05009
+Epoch: 17/60 Setp: 150, ranking_loss: 3.71, id_loss: 1.62, mn_loss: 0.18201
+Epoch: 17/60 Setp: 200, ranking_loss: 2.63, id_loss: 2.10, mn_loss: 0.04339
+Epoch: 17/60 Setp: 250, ranking_loss: 3.97, id_loss: 2.66, mn_loss: -0.02206
+Epoch: 17/60 Setp: 300, ranking_loss: 3.03, id_loss: 4.48, mn_loss: 0.20536
+Epoch: 17/60 Setp: 350, ranking_loss: 3.13, id_loss: 4.16, mn_loss: 0.22016
+Epoch: 17/60 Setp: 400, ranking_loss: 3.71, id_loss: 2.40, mn_loss: 0.31625
+Epoch: 17/60 Setp: 450, ranking_loss: 5.11, id_loss: 2.21, mn_loss: 0.10829
+Epoch: 17/60 Setp: 500, ranking_loss: 4.69, id_loss: 2.77, mn_loss: 0.05634
+Epoch: 17/60 Setp: 550, ranking_loss: 4.35, id_loss: 2.57, mn_loss: 0.09805
+Epoch: 17/60 Setp: 600, ranking_loss: 3.63, id_loss: 2.64, mn_loss: 0.28448
+Epoch: 17/60 Setp: 650, ranking_loss: 3.76, id_loss: 2.32, mn_loss: 0.27487
+Epoch: 17/60 Setp: 700, ranking_loss: 3.45, id_loss: 2.81, mn_loss: 0.04732
+Epoch: 17/60 Setp: 750, ranking_loss: 3.49, id_loss: 3.19, mn_loss: -0.03129
+Epoch: 17/60 Setp: 800, ranking_loss: 3.82, id_loss: 3.29, mn_loss: 0.01882
+Epoch: 17/60 Setp: 850, ranking_loss: 4.78, id_loss: 2.36, mn_loss: 0.16561
+Epoch: 17/60 Setp: 900, ranking_loss: 2.92, id_loss: 3.65, mn_loss: 0.04634
+Epoch: 17/60 Setp: 950, ranking_loss: 2.69, id_loss: 3.44, mn_loss: 0.07092
+Epoch: 17/60 Setp: 1000, ranking_loss: 4.91, id_loss: 1.99, mn_loss: 0.15909
+Epoch: 17/60 Setp: 1050, ranking_loss: 4.42, id_loss: 2.31, mn_loss: 0.21060
+Epoch: 17/60 , ranking_loss: 3.51, id_loss: 2.59, mn_loss: 0.10228
+lr:0.001
+lr:0.0001
+Epoch: 18/60 Setp: 50, ranking_loss: 3.70, id_loss: 2.23, mn_loss: 0.04326
+Epoch: 18/60 Setp: 100, ranking_loss: 3.20, id_loss: 2.50, mn_loss: 0.14717
+Epoch: 18/60 Setp: 150, ranking_loss: 4.25, id_loss: 1.54, mn_loss: 0.34345
+Epoch: 18/60 Setp: 200, ranking_loss: 4.60, id_loss: 1.57, mn_loss: 0.00314
+Epoch: 18/60 Setp: 250, ranking_loss: 1.96, id_loss: 1.43, mn_loss: 0.01263
+Epoch: 18/60 Setp: 300, ranking_loss: 3.74, id_loss: 2.21, mn_loss: 0.11385
+Epoch: 18/60 Setp: 350, ranking_loss: 3.36, id_loss: 1.84, mn_loss: 0.29229
+Epoch: 18/60 Setp: 400, ranking_loss: 5.90, id_loss: 2.13, mn_loss: 0.09930
+Epoch: 18/60 Setp: 450, ranking_loss: 4.50, id_loss: 1.98, mn_loss: 0.27103
+Epoch: 18/60 Setp: 500, ranking_loss: 3.37, id_loss: 2.32, mn_loss: 0.01604
+Epoch: 18/60 Setp: 550, ranking_loss: 2.41, id_loss: 1.89, mn_loss: 0.14486
+Epoch: 18/60 Setp: 600, ranking_loss: 3.93, id_loss: 3.24, mn_loss: 0.02316
+Epoch: 18/60 Setp: 650, ranking_loss: 2.79, id_loss: 1.71, mn_loss: 0.12368
+Epoch: 18/60 Setp: 700, ranking_loss: 3.68, id_loss: 1.60, mn_loss: -0.01297
+Epoch: 18/60 Setp: 750, ranking_loss: 2.79, id_loss: 1.74, mn_loss: 0.23853
+Epoch: 18/60 Setp: 800, ranking_loss: 3.12, id_loss: 2.82, mn_loss: 0.04955
+Epoch: 18/60 Setp: 850, ranking_loss: 2.78, id_loss: 2.36, mn_loss: 0.12247
+Epoch: 18/60 Setp: 900, ranking_loss: 3.98, id_loss: 1.96, mn_loss: 0.05236
+Epoch: 18/60 Setp: 950, ranking_loss: 3.32, id_loss: 3.47, mn_loss: -0.00612
+Epoch: 18/60 Setp: 1000, ranking_loss: 3.06, id_loss: 2.83, mn_loss: 0.14512
+Epoch: 18/60 Setp: 1050, ranking_loss: 2.94, id_loss: 2.46, mn_loss: 0.12401
+Epoch: 18/60 , ranking_loss: 3.29, id_loss: 2.23, mn_loss: 0.09636
+lr:0.001
+lr:0.0001
+Epoch: 19/60 Setp: 50, ranking_loss: 2.83, id_loss: 1.25, mn_loss: -0.03480
+Epoch: 19/60 Setp: 100, ranking_loss: 2.39, id_loss: 2.17, mn_loss: 0.05907
+Epoch: 19/60 Setp: 150, ranking_loss: 2.01, id_loss: 2.37, mn_loss: 0.07605
+Epoch: 19/60 Setp: 200, ranking_loss: 3.60, id_loss: 1.72, mn_loss: 0.07305
+Epoch: 19/60 Setp: 250, ranking_loss: 3.20, id_loss: 2.44, mn_loss: 0.03571
+Epoch: 19/60 Setp: 300, ranking_loss: 3.28, id_loss: 1.77, mn_loss: 0.09793
+Epoch: 19/60 Setp: 350, ranking_loss: 2.86, id_loss: 1.56, mn_loss: 0.05966
+Epoch: 19/60 Setp: 400, ranking_loss: 2.77, id_loss: 1.45, mn_loss: 0.04007
+Epoch: 19/60 Setp: 450, ranking_loss: 4.89, id_loss: 2.47, mn_loss: 0.32621
+Epoch: 19/60 Setp: 500, ranking_loss: 4.46, id_loss: 2.11, mn_loss: 0.14388
+Epoch: 19/60 Setp: 550, ranking_loss: 1.38, id_loss: 1.80, mn_loss: 0.04542
+Epoch: 19/60 Setp: 600, ranking_loss: 3.97, id_loss: 2.54, mn_loss: 0.25045
+Epoch: 19/60 Setp: 650, ranking_loss: 3.98, id_loss: 1.81, mn_loss: 0.21377
+Epoch: 19/60 Setp: 700, ranking_loss: 5.03, id_loss: 2.58, mn_loss: 0.08985
+Epoch: 19/60 Setp: 750, ranking_loss: 2.75, id_loss: 2.89, mn_loss: 0.15936
+Epoch: 19/60 Setp: 800, ranking_loss: 2.17, id_loss: 1.66, mn_loss: 0.03721
+Epoch: 19/60 Setp: 850, ranking_loss: 3.60, id_loss: 2.06, mn_loss: 0.03316
+Epoch: 19/60 Setp: 900, ranking_loss: 3.30, id_loss: 2.64, mn_loss: 0.04547
+Epoch: 19/60 Setp: 950, ranking_loss: 2.83, id_loss: 2.04, mn_loss: 0.10202
+Epoch: 19/60 Setp: 1000, ranking_loss: 3.11, id_loss: 2.58, mn_loss: 0.03674
+Epoch: 19/60 Setp: 1050, ranking_loss: 2.09, id_loss: 1.78, mn_loss: 0.17144
+Epoch: 19/60 , ranking_loss: 3.20, id_loss: 2.16, mn_loss: 0.09201
+lr:0.001
+lr:0.0001
+Epoch: 20/60 Setp: 50, ranking_loss: 3.33, id_loss: 2.10, mn_loss: 0.10275
+Epoch: 20/60 Setp: 100, ranking_loss: 3.17, id_loss: 1.05, mn_loss: 0.16641
+Epoch: 20/60 Setp: 150, ranking_loss: 2.00, id_loss: 1.25, mn_loss: 0.04175
+Epoch: 20/60 Setp: 200, ranking_loss: 2.68, id_loss: 1.27, mn_loss: 0.00825
+Epoch: 20/60 Setp: 250, ranking_loss: 2.67, id_loss: 1.76, mn_loss: 0.09325
+Epoch: 20/60 Setp: 300, ranking_loss: 3.08, id_loss: 1.48, mn_loss: 0.03364
+Epoch: 20/60 Setp: 350, ranking_loss: 4.75, id_loss: 1.34, mn_loss: 0.13774
+Epoch: 20/60 Setp: 400, ranking_loss: 4.30, id_loss: 2.61, mn_loss: 0.11466
+Epoch: 20/60 Setp: 450, ranking_loss: 2.79, id_loss: 2.56, mn_loss: 0.04718
+Epoch: 20/60 Setp: 500, ranking_loss: 2.60, id_loss: 1.64, mn_loss: 0.07363
+Epoch: 20/60 Setp: 550, ranking_loss: 2.70, id_loss: 1.80, mn_loss: 0.17433
+Epoch: 20/60 Setp: 600, ranking_loss: 4.65, id_loss: 1.88, mn_loss: 0.14177
+Epoch: 20/60 Setp: 650, ranking_loss: 2.49, id_loss: 2.18, mn_loss: -0.00321
+Epoch: 20/60 Setp: 700, ranking_loss: 2.22, id_loss: 1.79, mn_loss: -0.02922
+Epoch: 20/60 Setp: 750, ranking_loss: 3.95, id_loss: 2.70, mn_loss: 0.18676
+Epoch: 20/60 Setp: 800, ranking_loss: 2.22, id_loss: 2.50, mn_loss: 0.01450
+Epoch: 20/60 Setp: 850, ranking_loss: 3.95, id_loss: 1.76, mn_loss: 0.04922
+Epoch: 20/60 Setp: 900, ranking_loss: 2.94, id_loss: 1.52, mn_loss: -0.05345
+Epoch: 20/60 Setp: 950, ranking_loss: 2.05, id_loss: 2.25, mn_loss: 0.06651
+Epoch: 20/60 Setp: 1000, ranking_loss: 2.79, id_loss: 2.89, mn_loss: 0.07569
+Epoch: 20/60 Setp: 1050, ranking_loss: 2.09, id_loss: 1.77, mn_loss: 0.15116
+Epoch: 20/60 , ranking_loss: 3.07, id_loss: 2.08, mn_loss: 0.08346
+lr:0.0001
+lr:1e-05
+Epoch: 21/60 Setp: 50, ranking_loss: 3.27, id_loss: 1.48, mn_loss: 0.02267
+Epoch: 21/60 Setp: 100, ranking_loss: 2.78, id_loss: 1.19, mn_loss: -0.02663
+Epoch: 21/60 Setp: 150, ranking_loss: 2.08, id_loss: 0.85, mn_loss: 0.03313
+Epoch: 21/60 Setp: 200, ranking_loss: 1.85, id_loss: 1.06, mn_loss: -0.01901
+Epoch: 21/60 Setp: 250, ranking_loss: 2.21, id_loss: 0.86, mn_loss: 0.16148
+Epoch: 21/60 Setp: 300, ranking_loss: 2.54, id_loss: 0.81, mn_loss: -0.02363
+Epoch: 21/60 Setp: 350, ranking_loss: 0.50, id_loss: 0.80, mn_loss: -0.04570
+Epoch: 21/60 Setp: 400, ranking_loss: 1.73, id_loss: 0.61, mn_loss: 0.05250
+Epoch: 21/60 Setp: 450, ranking_loss: 3.29, id_loss: 0.56, mn_loss: -0.01282
+Epoch: 21/60 Setp: 500, ranking_loss: 3.42, id_loss: 1.19, mn_loss: 0.11639
+Epoch: 21/60 Setp: 550, ranking_loss: 2.47, id_loss: 0.81, mn_loss: 0.10718
+Epoch: 21/60 Setp: 600, ranking_loss: 1.56, id_loss: 0.62, mn_loss: 0.05816
+Epoch: 21/60 Setp: 650, ranking_loss: 0.71, id_loss: 0.66, mn_loss: -0.00484
+Epoch: 21/60 Setp: 700, ranking_loss: 1.22, id_loss: 0.65, mn_loss: 0.09792
+Epoch: 21/60 Setp: 750, ranking_loss: 1.65, id_loss: 0.87, mn_loss: -0.00505
+Epoch: 21/60 Setp: 800, ranking_loss: 1.68, id_loss: 0.30, mn_loss: 0.02681
+Epoch: 21/60 Setp: 850, ranking_loss: 1.40, id_loss: 0.54, mn_loss: 0.01533
+Epoch: 21/60 Setp: 900, ranking_loss: 2.80, id_loss: 0.81, mn_loss: -0.02288
+Epoch: 21/60 Setp: 950, ranking_loss: 1.49, id_loss: 0.72, mn_loss: -0.00256
+Epoch: 21/60 Setp: 1000, ranking_loss: 2.10, id_loss: 0.53, mn_loss: -0.05480
+Epoch: 21/60 Setp: 1050, ranking_loss: 1.87, id_loss: 0.60, mn_loss: 0.06380
+Epoch: 21/60 , ranking_loss: 2.23, id_loss: 0.83, mn_loss: 0.04310
+lr:0.0001
+lr:1e-05
+Epoch: 22/60 Setp: 50, ranking_loss: 0.88, id_loss: 0.40, mn_loss: -0.04056
+Epoch: 22/60 Setp: 100, ranking_loss: 1.75, id_loss: 0.48, mn_loss: 0.03425
+Epoch: 22/60 Setp: 150, ranking_loss: 1.32, id_loss: 0.49, mn_loss: 0.12548
+Epoch: 22/60 Setp: 200, ranking_loss: 2.19, id_loss: 0.37, mn_loss: -0.00619
+Epoch: 22/60 Setp: 250, ranking_loss: 3.13, id_loss: 0.78, mn_loss: 0.10479
+Epoch: 22/60 Setp: 300, ranking_loss: 2.23, id_loss: 0.76, mn_loss: 0.02765
+Epoch: 22/60 Setp: 350, ranking_loss: 2.03, id_loss: 0.42, mn_loss: 0.01031
+Epoch: 22/60 Setp: 400, ranking_loss: 2.42, id_loss: 0.38, mn_loss: 0.02599
+Epoch: 22/60 Setp: 450, ranking_loss: 2.12, id_loss: 0.31, mn_loss: 0.09536
+Epoch: 22/60 Setp: 500, ranking_loss: 2.08, id_loss: 0.39, mn_loss: 0.04615
+Epoch: 22/60 Setp: 550, ranking_loss: 1.39, id_loss: 0.33, mn_loss: 0.02598
+Epoch: 22/60 Setp: 600, ranking_loss: 2.57, id_loss: 0.76, mn_loss: -0.01327
+Epoch: 22/60 Setp: 650, ranking_loss: 2.39, id_loss: 0.63, mn_loss: -0.02596
+Epoch: 22/60 Setp: 700, ranking_loss: 1.94, id_loss: 0.54, mn_loss: 0.00077
+Epoch: 22/60 Setp: 750, ranking_loss: 2.91, id_loss: 0.39, mn_loss: -0.01623
+Epoch: 22/60 Setp: 800, ranking_loss: 1.38, id_loss: 0.57, mn_loss: 0.02330
+Epoch: 22/60 Setp: 850, ranking_loss: 0.86, id_loss: 0.37, mn_loss: 0.01316
+Epoch: 22/60 Setp: 900, ranking_loss: 1.06, id_loss: 0.29, mn_loss: 0.14253
+Epoch: 22/60 Setp: 950, ranking_loss: 1.21, id_loss: 0.34, mn_loss: -0.02705
+Epoch: 22/60 Setp: 1000, ranking_loss: 2.28, id_loss: 0.57, mn_loss: -0.04422
+Epoch: 22/60 Setp: 1050, ranking_loss: 2.58, id_loss: 0.88, mn_loss: -0.03042
+Epoch: 22/60 , ranking_loss: 1.94, id_loss: 0.48, mn_loss: 0.03277
+lr:0.0001
+lr:1e-05
+Epoch: 23/60 Setp: 50, ranking_loss: 1.39, id_loss: 0.41, mn_loss: -0.01319
+Epoch: 23/60 Setp: 100, ranking_loss: 1.66, id_loss: 0.38, mn_loss: -0.00355
+Epoch: 23/60 Setp: 150, ranking_loss: 1.01, id_loss: 0.37, mn_loss: 0.06079
+Epoch: 23/60 Setp: 200, ranking_loss: 2.49, id_loss: 0.54, mn_loss: 0.00556
+Epoch: 23/60 Setp: 250, ranking_loss: 1.95, id_loss: 0.29, mn_loss: -0.03529
+Epoch: 23/60 Setp: 300, ranking_loss: 1.56, id_loss: 0.36, mn_loss: 0.12301
+Epoch: 23/60 Setp: 350, ranking_loss: 1.31, id_loss: 0.36, mn_loss: 0.10200
+Epoch: 23/60 Setp: 400, ranking_loss: 1.73, id_loss: 0.40, mn_loss: -0.04024
+Epoch: 23/60 Setp: 450, ranking_loss: 0.87, id_loss: 0.28, mn_loss: 0.15650
+Epoch: 23/60 Setp: 500, ranking_loss: 0.98, id_loss: 0.71, mn_loss: 0.00680
+Epoch: 23/60 Setp: 550, ranking_loss: 1.27, id_loss: 0.56, mn_loss: -0.00222
+Epoch: 23/60 Setp: 600, ranking_loss: 2.41, id_loss: 0.32, mn_loss: -0.02764
+Epoch: 23/60 Setp: 650, ranking_loss: 1.94, id_loss: 0.41, mn_loss: 0.02800
+Epoch: 23/60 Setp: 700, ranking_loss: 1.53, id_loss: 0.32, mn_loss: -0.08383
+Epoch: 23/60 Setp: 750, ranking_loss: 2.87, id_loss: 0.39, mn_loss: -0.01034
+Epoch: 23/60 Setp: 800, ranking_loss: 3.87, id_loss: 0.50, mn_loss: 0.32871
+Epoch: 23/60 Setp: 850, ranking_loss: 1.68, id_loss: 0.59, mn_loss: 0.33294
+Epoch: 23/60 Setp: 900, ranking_loss: 1.43, id_loss: 0.35, mn_loss: -0.01087
+Epoch: 23/60 Setp: 950, ranking_loss: 1.39, id_loss: 0.47, mn_loss: -0.05692
+Epoch: 23/60 Setp: 1000, ranking_loss: 2.91, id_loss: 0.57, mn_loss: 0.06916
+Epoch: 23/60 Setp: 1050, ranking_loss: 2.72, id_loss: 0.29, mn_loss: 0.01160
+Epoch: 23/60 , ranking_loss: 1.82, id_loss: 0.38, mn_loss: 0.02129
+lr:0.0001
+lr:1e-05
+Epoch: 24/60 Setp: 50, ranking_loss: 2.56, id_loss: 0.55, mn_loss: 0.04849
+Epoch: 24/60 Setp: 100, ranking_loss: 2.16, id_loss: 0.16, mn_loss: 0.10122
+Epoch: 24/60 Setp: 150, ranking_loss: 1.52, id_loss: 0.26, mn_loss: 0.08658
+Epoch: 24/60 Setp: 200, ranking_loss: 1.82, id_loss: 0.38, mn_loss: 0.17665
+Epoch: 24/60 Setp: 250, ranking_loss: 2.09, id_loss: 0.31, mn_loss: -0.05942
+Epoch: 24/60 Setp: 300, ranking_loss: 1.52, id_loss: 0.39, mn_loss: 0.15720
+Epoch: 24/60 Setp: 350, ranking_loss: 2.44, id_loss: 0.57, mn_loss: 0.00490
+Epoch: 24/60 Setp: 400, ranking_loss: 2.20, id_loss: 0.48, mn_loss: -0.01933
+Epoch: 24/60 Setp: 450, ranking_loss: 1.00, id_loss: 0.30, mn_loss: 0.08835
+Epoch: 24/60 Setp: 500, ranking_loss: 1.60, id_loss: 0.47, mn_loss: -0.05154
+Epoch: 24/60 Setp: 550, ranking_loss: 1.81, id_loss: 0.28, mn_loss: 0.05961
+Epoch: 24/60 Setp: 600, ranking_loss: 1.06, id_loss: 0.36, mn_loss: -0.01439
+Epoch: 24/60 Setp: 650, ranking_loss: 1.45, id_loss: 0.21, mn_loss: 0.07630
+Epoch: 24/60 Setp: 700, ranking_loss: 1.15, id_loss: 0.21, mn_loss: 0.01344
+Epoch: 24/60 Setp: 750, ranking_loss: 2.27, id_loss: 0.48, mn_loss: 0.15062
+Epoch: 24/60 Setp: 800, ranking_loss: 2.04, id_loss: 0.21, mn_loss: 0.18626
+Epoch: 24/60 Setp: 850, ranking_loss: 2.36, id_loss: 0.27, mn_loss: -0.05169
+Epoch: 24/60 Setp: 900, ranking_loss: 1.08, id_loss: 0.43, mn_loss: -0.05516
+Epoch: 24/60 Setp: 950, ranking_loss: 1.09, id_loss: 0.22, mn_loss: 0.15136
+Epoch: 24/60 Setp: 1000, ranking_loss: 1.58, id_loss: 0.58, mn_loss: 0.03953
+Epoch: 24/60 Setp: 1050, ranking_loss: 0.90, id_loss: 0.27, mn_loss: -0.00129
+Epoch: 24/60 , ranking_loss: 1.72, id_loss: 0.34, mn_loss: 0.01687
+lr:0.0001
+lr:1e-05
+Epoch: 25/60 Setp: 50, ranking_loss: 1.41, id_loss: 0.25, mn_loss: -0.02372
+Epoch: 25/60 Setp: 100, ranking_loss: 2.51, id_loss: 0.50, mn_loss: -0.00892
+Epoch: 25/60 Setp: 150, ranking_loss: 1.37, id_loss: 0.34, mn_loss: -0.00585
+Epoch: 25/60 Setp: 200, ranking_loss: 1.02, id_loss: 0.17, mn_loss: -0.06723
+Epoch: 25/60 Setp: 250, ranking_loss: 1.83, id_loss: 0.41, mn_loss: -0.04362
+Epoch: 25/60 Setp: 300, ranking_loss: 1.02, id_loss: 0.29, mn_loss: -0.01204
+Epoch: 25/60 Setp: 350, ranking_loss: 1.50, id_loss: 0.32, mn_loss: -0.04506
+Epoch: 25/60 Setp: 400, ranking_loss: 1.42, id_loss: 0.22, mn_loss: 0.01219
+Epoch: 25/60 Setp: 450, ranking_loss: 1.41, id_loss: 0.33, mn_loss: 0.01107
+Epoch: 25/60 Setp: 500, ranking_loss: 1.58, id_loss: 0.27, mn_loss: 0.03055
+Epoch: 25/60 Setp: 550, ranking_loss: 0.95, id_loss: 0.35, mn_loss: 0.14949
+Epoch: 25/60 Setp: 600, ranking_loss: 2.32, id_loss: 0.23, mn_loss: 0.06136
+Epoch: 25/60 Setp: 650, ranking_loss: 1.59, id_loss: 0.52, mn_loss: -0.04289
+Epoch: 25/60 Setp: 700, ranking_loss: 1.41, id_loss: 0.42, mn_loss: -0.03168
+Epoch: 25/60 Setp: 750, ranking_loss: 1.69, id_loss: 0.38, mn_loss: -0.01731
+Epoch: 25/60 Setp: 800, ranking_loss: 1.31, id_loss: 0.34, mn_loss: 0.00494
+Epoch: 25/60 Setp: 850, ranking_loss: 1.32, id_loss: 0.39, mn_loss: -0.09445
+Epoch: 25/60 Setp: 900, ranking_loss: 1.58, id_loss: 0.26, mn_loss: -0.02460
+Epoch: 25/60 Setp: 950, ranking_loss: 1.03, id_loss: 0.52, mn_loss: 0.02718
+Epoch: 25/60 Setp: 1000, ranking_loss: 1.38, id_loss: 0.25, mn_loss: 0.12229
+Epoch: 25/60 Setp: 1050, ranking_loss: 2.53, id_loss: 0.30, mn_loss: -0.01962
+Epoch: 25/60 , ranking_loss: 1.64, id_loss: 0.31, mn_loss: 0.01497
+lr:0.0001
+lr:1e-05
+Epoch: 26/60 Setp: 50, ranking_loss: 0.91, id_loss: 0.15, mn_loss: -0.05606
+Epoch: 26/60 Setp: 100, ranking_loss: 3.10, id_loss: 0.32, mn_loss: -0.01077
+Epoch: 26/60 Setp: 150, ranking_loss: 2.02, id_loss: 0.16, mn_loss: -0.00052
+Epoch: 26/60 Setp: 200, ranking_loss: 1.49, id_loss: 0.19, mn_loss: 0.01693
+Epoch: 26/60 Setp: 250, ranking_loss: 1.06, id_loss: 0.30, mn_loss: 0.27411
+Epoch: 26/60 Setp: 300, ranking_loss: 1.51, id_loss: 0.35, mn_loss: -0.03966
+Epoch: 26/60 Setp: 350, ranking_loss: 0.98, id_loss: 0.27, mn_loss: 0.00225
+Epoch: 26/60 Setp: 400, ranking_loss: 1.15, id_loss: 0.17, mn_loss: -0.02974
+Epoch: 26/60 Setp: 450, ranking_loss: 1.70, id_loss: 0.34, mn_loss: -0.04054
+Epoch: 26/60 Setp: 500, ranking_loss: 1.67, id_loss: 0.32, mn_loss: -0.00716
+Epoch: 26/60 Setp: 550, ranking_loss: 1.45, id_loss: 0.22, mn_loss: -0.00423
+Epoch: 26/60 Setp: 600, ranking_loss: 1.63, id_loss: 0.34, mn_loss: -0.03328
+Epoch: 26/60 Setp: 650, ranking_loss: 0.82, id_loss: 0.19, mn_loss: 0.01471
+Epoch: 26/60 Setp: 700, ranking_loss: 1.54, id_loss: 0.18, mn_loss: 0.03103
+Epoch: 26/60 Setp: 750, ranking_loss: 0.56, id_loss: 0.29, mn_loss: -0.03500
+Epoch: 26/60 Setp: 800, ranking_loss: 2.59, id_loss: 0.25, mn_loss: -0.06874
+Epoch: 26/60 Setp: 850, ranking_loss: 1.76, id_loss: 0.20, mn_loss: 0.05248
+Epoch: 26/60 Setp: 900, ranking_loss: 1.89, id_loss: 0.43, mn_loss: -0.00366
+Epoch: 26/60 Setp: 950, ranking_loss: 0.88, id_loss: 0.30, mn_loss: -0.07340
+Epoch: 26/60 Setp: 1000, ranking_loss: 1.86, id_loss: 0.23, mn_loss: 0.02752
+Epoch: 26/60 Setp: 1050, ranking_loss: 0.39, id_loss: 0.29, mn_loss: -0.07588
+Epoch: 26/60 , ranking_loss: 1.57, id_loss: 0.29, mn_loss: 0.00769
+lr:0.0001
+lr:1e-05
+Epoch: 27/60 Setp: 50, ranking_loss: 1.75, id_loss: 0.37, mn_loss: -0.01602
+Epoch: 27/60 Setp: 100, ranking_loss: 0.96, id_loss: 0.11, mn_loss: 0.09017
+Epoch: 27/60 Setp: 150, ranking_loss: 1.95, id_loss: 0.18, mn_loss: -0.10171
+Epoch: 27/60 Setp: 200, ranking_loss: 1.70, id_loss: 0.39, mn_loss: 0.08054
+Epoch: 27/60 Setp: 250, ranking_loss: 1.92, id_loss: 0.47, mn_loss: 0.05698
+Epoch: 27/60 Setp: 300, ranking_loss: 0.56, id_loss: 0.32, mn_loss: 0.02870
+Epoch: 27/60 Setp: 350, ranking_loss: 0.90, id_loss: 0.39, mn_loss: 0.01416
+Epoch: 27/60 Setp: 400, ranking_loss: 1.92, id_loss: 0.44, mn_loss: 0.11251
+Epoch: 27/60 Setp: 450, ranking_loss: 0.78, id_loss: 0.17, mn_loss: 0.07938
+Epoch: 27/60 Setp: 500, ranking_loss: 1.13, id_loss: 0.17, mn_loss: -0.04162
+Epoch: 27/60 Setp: 550, ranking_loss: 1.20, id_loss: 0.36, mn_loss: 0.10310
+Epoch: 27/60 Setp: 600, ranking_loss: 0.48, id_loss: 0.11, mn_loss: -0.01978
+Epoch: 27/60 Setp: 650, ranking_loss: 0.88, id_loss: 0.10, mn_loss: 0.02137
+Epoch: 27/60 Setp: 700, ranking_loss: 1.44, id_loss: 0.26, mn_loss: 0.02695
+Epoch: 27/60 Setp: 750, ranking_loss: 2.02, id_loss: 0.30, mn_loss: -0.02725
+Epoch: 27/60 Setp: 800, ranking_loss: 1.86, id_loss: 0.39, mn_loss: 0.02877
+Epoch: 27/60 Setp: 850, ranking_loss: 2.30, id_loss: 0.15, mn_loss: -0.03375
+Epoch: 27/60 Setp: 900, ranking_loss: 1.53, id_loss: 0.41, mn_loss: -0.00294
+Epoch: 27/60 Setp: 950, ranking_loss: 1.94, id_loss: 0.18, mn_loss: -0.07517
+Epoch: 27/60 Setp: 1000, ranking_loss: 3.16, id_loss: 0.21, mn_loss: -0.06267
+Epoch: 27/60 Setp: 1050, ranking_loss: 1.15, id_loss: 0.55, mn_loss: -0.05648
+Epoch: 27/60 , ranking_loss: 1.53, id_loss: 0.27, mn_loss: 0.00751
+lr:0.0001
+lr:1e-05
+Epoch: 28/60 Setp: 50, ranking_loss: 1.51, id_loss: 0.17, mn_loss: 0.03863
+Epoch: 28/60 Setp: 100, ranking_loss: 1.58, id_loss: 0.24, mn_loss: -0.02440
+Epoch: 28/60 Setp: 150, ranking_loss: 1.05, id_loss: 0.29, mn_loss: -0.00996
+Epoch: 28/60 Setp: 200, ranking_loss: 1.68, id_loss: 0.26, mn_loss: -0.03557
+Epoch: 28/60 Setp: 250, ranking_loss: 0.73, id_loss: 0.38, mn_loss: 0.03831
+Epoch: 28/60 Setp: 300, ranking_loss: 1.81, id_loss: 0.23, mn_loss: -0.01258
+Epoch: 28/60 Setp: 350, ranking_loss: 1.34, id_loss: 0.26, mn_loss: 0.09584
+Epoch: 28/60 Setp: 400, ranking_loss: 1.76, id_loss: 0.34, mn_loss: -0.02846
+Epoch: 28/60 Setp: 450, ranking_loss: 1.30, id_loss: 0.30, mn_loss: -0.02453
+Epoch: 28/60 Setp: 500, ranking_loss: 1.05, id_loss: 0.14, mn_loss: 0.03348
+Epoch: 28/60 Setp: 550, ranking_loss: 1.26, id_loss: 0.17, mn_loss: 0.00263
+Epoch: 28/60 Setp: 600, ranking_loss: 0.79, id_loss: 0.39, mn_loss: -0.03343
+Epoch: 28/60 Setp: 650, ranking_loss: 1.08, id_loss: 0.20, mn_loss: -0.03155
+Epoch: 28/60 Setp: 700, ranking_loss: 0.76, id_loss: 0.18, mn_loss: 0.05554
+Epoch: 28/60 Setp: 750, ranking_loss: 0.80, id_loss: 0.25, mn_loss: 0.07704
+Epoch: 28/60 Setp: 800, ranking_loss: 1.47, id_loss: 0.38, mn_loss: -0.06219
+Epoch: 28/60 Setp: 850, ranking_loss: 1.14, id_loss: 0.18, mn_loss: 0.01456
+Epoch: 28/60 Setp: 900, ranking_loss: 1.61, id_loss: 0.17, mn_loss: -0.07448
+Epoch: 28/60 Setp: 950, ranking_loss: 1.33, id_loss: 0.30, mn_loss: 0.00948
+Epoch: 28/60 Setp: 1000, ranking_loss: 0.86, id_loss: 0.30, mn_loss: 0.12328
+Epoch: 28/60 Setp: 1050, ranking_loss: 0.82, id_loss: 0.17, mn_loss: 0.02322
+Epoch: 28/60 , ranking_loss: 1.45, id_loss: 0.26, mn_loss: 0.01025
+lr:0.0001
+lr:1e-05
+Epoch: 29/60 Setp: 50, ranking_loss: 1.36, id_loss: 0.23, mn_loss: -0.02695
+Epoch: 29/60 Setp: 100, ranking_loss: 1.71, id_loss: 0.21, mn_loss: 0.12388
+Epoch: 29/60 Setp: 150, ranking_loss: 2.68, id_loss: 0.15, mn_loss: 0.00242
+Epoch: 29/60 Setp: 200, ranking_loss: 2.27, id_loss: 0.18, mn_loss: 0.05421
+Epoch: 29/60 Setp: 250, ranking_loss: 1.77, id_loss: 0.30, mn_loss: -0.07929
+Epoch: 29/60 Setp: 300, ranking_loss: 2.11, id_loss: 0.23, mn_loss: 0.10697
+Epoch: 29/60 Setp: 350, ranking_loss: 1.54, id_loss: 0.42, mn_loss: 0.00727
+Epoch: 29/60 Setp: 400, ranking_loss: 0.71, id_loss: 0.15, mn_loss: 0.02739
+Epoch: 29/60 Setp: 450, ranking_loss: 2.35, id_loss: 0.18, mn_loss: -0.07121
+Epoch: 29/60 Setp: 500, ranking_loss: 1.24, id_loss: 0.17, mn_loss: -0.00981
+Epoch: 29/60 Setp: 550, ranking_loss: 1.83, id_loss: 0.18, mn_loss: -0.04692
+Epoch: 29/60 Setp: 600, ranking_loss: 2.18, id_loss: 0.18, mn_loss: 0.12985
+Epoch: 29/60 Setp: 650, ranking_loss: 1.87, id_loss: 0.24, mn_loss: 0.22185
+Epoch: 29/60 Setp: 700, ranking_loss: 0.54, id_loss: 0.30, mn_loss: -0.01526
+Epoch: 29/60 Setp: 750, ranking_loss: 0.94, id_loss: 0.16, mn_loss: 0.21187
+Epoch: 29/60 Setp: 800, ranking_loss: 2.22, id_loss: 0.30, mn_loss: 0.08951
+Epoch: 29/60 Setp: 850, ranking_loss: 1.87, id_loss: 0.30, mn_loss: -0.07414
+Epoch: 29/60 Setp: 900, ranking_loss: 1.41, id_loss: 0.22, mn_loss: -0.01482
+Epoch: 29/60 Setp: 950, ranking_loss: 1.30, id_loss: 0.32, mn_loss: 0.10164
+Epoch: 29/60 Setp: 1000, ranking_loss: 1.53, id_loss: 0.34, mn_loss: -0.06153
+Epoch: 29/60 Setp: 1050, ranking_loss: 0.67, id_loss: 0.17, mn_loss: 0.03154
+Epoch: 29/60 , ranking_loss: 1.44, id_loss: 0.24, mn_loss: 0.00364
+lr:0.0001
+lr:1e-05
+Epoch: 30/60 Setp: 50, ranking_loss: 1.03, id_loss: 0.23, mn_loss: -0.00181
+Epoch: 30/60 Setp: 100, ranking_loss: 0.97, id_loss: 0.16, mn_loss: -0.02270
+Epoch: 30/60 Setp: 150, ranking_loss: 2.01, id_loss: 0.23, mn_loss: 0.05723
+Epoch: 30/60 Setp: 200, ranking_loss: 0.94, id_loss: 0.27, mn_loss: -0.02477
+Epoch: 30/60 Setp: 250, ranking_loss: 1.33, id_loss: 0.18, mn_loss: -0.03407
+Epoch: 30/60 Setp: 300, ranking_loss: 1.42, id_loss: 0.19, mn_loss: 0.08478
+Epoch: 30/60 Setp: 350, ranking_loss: 1.55, id_loss: 0.17, mn_loss: -0.04422
+Epoch: 30/60 Setp: 400, ranking_loss: 0.63, id_loss: 0.13, mn_loss: 0.02574
+Epoch: 30/60 Setp: 450, ranking_loss: 1.26, id_loss: 0.11, mn_loss: 0.04801
+Epoch: 30/60 Setp: 500, ranking_loss: 1.49, id_loss: 0.47, mn_loss: -0.06601
+Epoch: 30/60 Setp: 550, ranking_loss: 2.40, id_loss: 0.20, mn_loss: -0.03771
+Epoch: 30/60 Setp: 600, ranking_loss: 1.73, id_loss: 0.17, mn_loss: 0.02577
+Epoch: 30/60 Setp: 650, ranking_loss: 1.13, id_loss: 0.13, mn_loss: -0.03270
+Epoch: 30/60 Setp: 700, ranking_loss: 0.89, id_loss: 0.33, mn_loss: -0.07441
+Epoch: 30/60 Setp: 750, ranking_loss: 1.48, id_loss: 0.08, mn_loss: -0.00692
+Epoch: 30/60 Setp: 800, ranking_loss: 1.55, id_loss: 0.14, mn_loss: -0.01795
+Epoch: 30/60 Setp: 850, ranking_loss: 1.28, id_loss: 0.21, mn_loss: -0.05760
+Epoch: 30/60 Setp: 900, ranking_loss: 2.32, id_loss: 0.33, mn_loss: 0.00024
+Epoch: 30/60 Setp: 950, ranking_loss: 1.62, id_loss: 0.48, mn_loss: 0.06036
+Epoch: 30/60 Setp: 1000, ranking_loss: 0.94, id_loss: 0.31, mn_loss: -0.08434
+Epoch: 30/60 Setp: 1050, ranking_loss: 1.00, id_loss: 0.35, mn_loss: 0.06542
+Epoch: 30/60 , ranking_loss: 1.38, id_loss: 0.24, mn_loss: 0.00312
+lr:0.0001
+lr:1e-05
+Epoch: 31/60 Setp: 50, ranking_loss: 1.35, id_loss: 0.41, mn_loss: -0.02743
+Epoch: 31/60 Setp: 100, ranking_loss: 1.71, id_loss: 0.30, mn_loss: 0.02297
+Epoch: 31/60 Setp: 150, ranking_loss: 1.48, id_loss: 0.36, mn_loss: 0.04878
+Epoch: 31/60 Setp: 200, ranking_loss: 2.13, id_loss: 0.34, mn_loss: 0.00448
+Epoch: 31/60 Setp: 250, ranking_loss: 1.18, id_loss: 0.16, mn_loss: -0.04852
+Epoch: 31/60 Setp: 300, ranking_loss: 1.12, id_loss: 0.13, mn_loss: 0.09021
+Epoch: 31/60 Setp: 350, ranking_loss: 1.97, id_loss: 0.16, mn_loss: -0.03091
+Epoch: 31/60 Setp: 400, ranking_loss: 0.76, id_loss: 0.24, mn_loss: -0.02325
+Epoch: 31/60 Setp: 450, ranking_loss: 1.41, id_loss: 0.16, mn_loss: -0.02105
+Epoch: 31/60 Setp: 500, ranking_loss: 1.78, id_loss: 0.39, mn_loss: 0.08424
+Epoch: 31/60 Setp: 550, ranking_loss: 1.63, id_loss: 0.31, mn_loss: -0.03388
+Epoch: 31/60 Setp: 600, ranking_loss: 1.48, id_loss: 0.25, mn_loss: 0.10019
+Epoch: 31/60 Setp: 650, ranking_loss: 0.82, id_loss: 0.28, mn_loss: -0.08255
+Epoch: 31/60 Setp: 700, ranking_loss: 1.96, id_loss: 0.18, mn_loss: -0.00238
+Epoch: 31/60 Setp: 750, ranking_loss: 2.91, id_loss: 0.33, mn_loss: 0.01165
+Epoch: 31/60 Setp: 800, ranking_loss: 1.55, id_loss: 0.32, mn_loss: -0.06060
+Epoch: 31/60 Setp: 850, ranking_loss: 1.00, id_loss: 0.11, mn_loss: 0.26297
+Epoch: 31/60 Setp: 900, ranking_loss: 1.66, id_loss: 0.30, mn_loss: -0.02960
+Epoch: 31/60 Setp: 950, ranking_loss: 0.94, id_loss: 0.13, mn_loss: -0.05742
+Epoch: 31/60 Setp: 1000, ranking_loss: 2.00, id_loss: 0.28, mn_loss: 0.02793
+Epoch: 31/60 Setp: 1050, ranking_loss: 0.99, id_loss: 0.32, mn_loss: 0.12188
+Epoch: 31/60 , ranking_loss: 1.36, id_loss: 0.23, mn_loss: 0.00047
+lr:0.0001
+lr:1e-05
+Epoch: 32/60 Setp: 50, ranking_loss: 0.96, id_loss: 0.27, mn_loss: 0.21221
+Epoch: 32/60 Setp: 100, ranking_loss: 1.92, id_loss: 0.18, mn_loss: -0.07572
+Epoch: 32/60 Setp: 150, ranking_loss: 1.14, id_loss: 0.29, mn_loss: -0.09790
+Epoch: 32/60 Setp: 200, ranking_loss: 1.55, id_loss: 0.21, mn_loss: -0.03918
+Epoch: 32/60 Setp: 250, ranking_loss: 1.01, id_loss: 0.19, mn_loss: 0.02707
+Epoch: 32/60 Setp: 300, ranking_loss: 2.17, id_loss: 0.19, mn_loss: 0.02392
+Epoch: 32/60 Setp: 350, ranking_loss: 0.96, id_loss: 0.24, mn_loss: 0.01031
+Epoch: 32/60 Setp: 400, ranking_loss: 2.26, id_loss: 0.16, mn_loss: 0.00796
+Epoch: 32/60 Setp: 450, ranking_loss: 1.14, id_loss: 0.14, mn_loss: 0.09948
+Epoch: 32/60 Setp: 500, ranking_loss: 1.84, id_loss: 0.14, mn_loss: 0.10473
+Epoch: 32/60 Setp: 550, ranking_loss: 0.99, id_loss: 0.25, mn_loss: 0.01771
+Epoch: 32/60 Setp: 600, ranking_loss: 1.08, id_loss: 0.25, mn_loss: 0.02125
+Epoch: 32/60 Setp: 650, ranking_loss: 0.90, id_loss: 0.20, mn_loss: 0.04900
+Epoch: 32/60 Setp: 700, ranking_loss: 0.98, id_loss: 0.27, mn_loss: -0.04313
+Epoch: 32/60 Setp: 750, ranking_loss: 0.53, id_loss: 0.30, mn_loss: -0.01983
+Epoch: 32/60 Setp: 800, ranking_loss: 1.44, id_loss: 0.41, mn_loss: 0.01491
+Epoch: 32/60 Setp: 850, ranking_loss: 1.78, id_loss: 0.20, mn_loss: 0.01750
+Epoch: 32/60 Setp: 900, ranking_loss: 1.41, id_loss: 0.29, mn_loss: -0.04874
+Epoch: 32/60 Setp: 950, ranking_loss: 1.53, id_loss: 0.39, mn_loss: -0.05332
+Epoch: 32/60 Setp: 1000, ranking_loss: 1.36, id_loss: 0.09, mn_loss: -0.08298
+Epoch: 32/60 Setp: 1050, ranking_loss: 2.08, id_loss: 0.25, mn_loss: 0.09022
+Epoch: 32/60 , ranking_loss: 1.33, id_loss: 0.22, mn_loss: 0.00067
+lr:0.0001
+lr:1e-05
+Epoch: 33/60 Setp: 50, ranking_loss: 2.25, id_loss: 0.12, mn_loss: -0.04487
+Epoch: 33/60 Setp: 100, ranking_loss: 1.72, id_loss: 0.21, mn_loss: -0.01712
+Epoch: 33/60 Setp: 150, ranking_loss: 1.21, id_loss: 0.35, mn_loss: -0.06774
+Epoch: 33/60 Setp: 200, ranking_loss: 0.79, id_loss: 0.18, mn_loss: -0.09161
+Epoch: 33/60 Setp: 250, ranking_loss: 1.58, id_loss: 0.13, mn_loss: -0.00178
+Epoch: 33/60 Setp: 300, ranking_loss: 0.27, id_loss: 0.19, mn_loss: -0.03218
+Epoch: 33/60 Setp: 350, ranking_loss: 1.07, id_loss: 0.10, mn_loss: -0.05012
+Epoch: 33/60 Setp: 400, ranking_loss: 1.21, id_loss: 0.18, mn_loss: 0.01082
+Epoch: 33/60 Setp: 450, ranking_loss: 1.30, id_loss: 0.07, mn_loss: -0.04834
+Epoch: 33/60 Setp: 500, ranking_loss: 0.66, id_loss: 0.22, mn_loss: 0.04980
+Epoch: 33/60 Setp: 550, ranking_loss: 0.63, id_loss: 0.43, mn_loss: -0.03813
+Epoch: 33/60 Setp: 600, ranking_loss: 1.71, id_loss: 0.21, mn_loss: 0.00628
+Epoch: 33/60 Setp: 650, ranking_loss: 1.03, id_loss: 0.19, mn_loss: 0.08332
+Epoch: 33/60 Setp: 700, ranking_loss: 0.52, id_loss: 0.18, mn_loss: 0.03104
+Epoch: 33/60 Setp: 750, ranking_loss: 1.24, id_loss: 0.31, mn_loss: 0.03513
+Epoch: 33/60 Setp: 800, ranking_loss: 0.86, id_loss: 0.23, mn_loss: 0.01553
+Epoch: 33/60 Setp: 850, ranking_loss: 0.60, id_loss: 0.29, mn_loss: -0.01600
+Epoch: 33/60 Setp: 900, ranking_loss: 1.17, id_loss: 0.27, mn_loss: 0.01424
+Epoch: 33/60 Setp: 950, ranking_loss: 0.79, id_loss: 0.27, mn_loss: -0.00426
+Epoch: 33/60 Setp: 1000, ranking_loss: 1.81, id_loss: 0.25, mn_loss: 0.04089
+Epoch: 33/60 Setp: 1050, ranking_loss: 1.54, id_loss: 0.21, mn_loss: -0.04515
+Epoch: 33/60 , ranking_loss: 1.30, id_loss: 0.21, mn_loss: -0.00147
+lr:0.0001
+lr:1e-05
+Epoch: 34/60 Setp: 50, ranking_loss: 2.58, id_loss: 0.27, mn_loss: 0.02633
+Epoch: 34/60 Setp: 100, ranking_loss: 0.61, id_loss: 0.12, mn_loss: -0.01435
+Epoch: 34/60 Setp: 150, ranking_loss: 0.68, id_loss: 0.16, mn_loss: -0.03637
+Epoch: 34/60 Setp: 200, ranking_loss: 0.73, id_loss: 0.18, mn_loss: 0.03482
+Epoch: 34/60 Setp: 250, ranking_loss: 1.61, id_loss: 0.20, mn_loss: -0.04876
+Epoch: 34/60 Setp: 300, ranking_loss: 1.81, id_loss: 0.29, mn_loss: 0.04731
+Epoch: 34/60 Setp: 350, ranking_loss: 1.23, id_loss: 0.30, mn_loss: -0.03774
+Epoch: 34/60 Setp: 400, ranking_loss: 1.10, id_loss: 0.25, mn_loss: 0.00446
+Epoch: 34/60 Setp: 450, ranking_loss: 0.80, id_loss: 0.05, mn_loss: -0.04657
+Epoch: 34/60 Setp: 500, ranking_loss: 1.41, id_loss: 0.33, mn_loss: 0.12390
+Epoch: 34/60 Setp: 550, ranking_loss: 0.47, id_loss: 0.36, mn_loss: -0.06267
+Epoch: 34/60 Setp: 600, ranking_loss: 2.12, id_loss: 0.22, mn_loss: 0.00398
+Epoch: 34/60 Setp: 650, ranking_loss: 1.02, id_loss: 0.23, mn_loss: -0.01226
+Epoch: 34/60 Setp: 700, ranking_loss: 1.54, id_loss: 0.22, mn_loss: -0.00745
+Epoch: 34/60 Setp: 750, ranking_loss: 1.01, id_loss: 0.14, mn_loss: 0.14518
+Epoch: 34/60 Setp: 800, ranking_loss: 1.30, id_loss: 0.17, mn_loss: -0.02794
+Epoch: 34/60 Setp: 850, ranking_loss: 0.90, id_loss: 0.06, mn_loss: 0.03479
+Epoch: 34/60 Setp: 900, ranking_loss: 0.93, id_loss: 0.10, mn_loss: -0.03846
+Epoch: 34/60 Setp: 950, ranking_loss: 0.36, id_loss: 0.27, mn_loss: -0.07124
+Epoch: 34/60 Setp: 1000, ranking_loss: 0.65, id_loss: 0.25, mn_loss: -0.02355
+Epoch: 34/60 Setp: 1050, ranking_loss: 1.21, id_loss: 0.06, mn_loss: 0.05871
+Epoch: 34/60 , ranking_loss: 1.27, id_loss: 0.21, mn_loss: -0.00854
+lr:0.0001
+lr:1e-05
+Epoch: 35/60 Setp: 50, ranking_loss: 2.61, id_loss: 0.24, mn_loss: -0.03261
+Epoch: 35/60 Setp: 100, ranking_loss: 1.00, id_loss: 0.10, mn_loss: -0.01429
+Epoch: 35/60 Setp: 150, ranking_loss: 0.84, id_loss: 0.16, mn_loss: -0.01819
+Epoch: 35/60 Setp: 200, ranking_loss: 1.29, id_loss: 0.18, mn_loss: 0.07228
+Epoch: 35/60 Setp: 250, ranking_loss: 1.92, id_loss: 0.18, mn_loss: 0.03604
+Epoch: 35/60 Setp: 300, ranking_loss: 2.29, id_loss: 0.19, mn_loss: -0.02673
+Epoch: 35/60 Setp: 350, ranking_loss: 0.24, id_loss: 0.10, mn_loss: -0.07426
+Epoch: 35/60 Setp: 400, ranking_loss: 1.41, id_loss: 0.14, mn_loss: 0.16015
+Epoch: 35/60 Setp: 450, ranking_loss: 1.35, id_loss: 0.21, mn_loss: -0.09525
+Epoch: 35/60 Setp: 500, ranking_loss: 1.72, id_loss: 0.11, mn_loss: 0.01673
+Epoch: 35/60 Setp: 550, ranking_loss: 0.92, id_loss: 0.42, mn_loss: -0.07786
+Epoch: 35/60 Setp: 600, ranking_loss: 1.00, id_loss: 0.17, mn_loss: -0.04934
+Epoch: 35/60 Setp: 650, ranking_loss: 0.43, id_loss: 0.31, mn_loss: 0.03482
+Epoch: 35/60 Setp: 700, ranking_loss: 1.11, id_loss: 0.12, mn_loss: -0.04554
+Epoch: 35/60 Setp: 750, ranking_loss: 1.78, id_loss: 0.38, mn_loss: -0.04746
+Epoch: 35/60 Setp: 800, ranking_loss: 1.23, id_loss: 0.39, mn_loss: -0.02860
+Epoch: 35/60 Setp: 850, ranking_loss: 1.12, id_loss: 0.24, mn_loss: -0.04319
+Epoch: 35/60 Setp: 900, ranking_loss: 0.97, id_loss: 0.42, mn_loss: 0.00764
+Epoch: 35/60 Setp: 950, ranking_loss: 2.49, id_loss: 0.40, mn_loss: 0.00303
+Epoch: 35/60 Setp: 1000, ranking_loss: 1.02, id_loss: 0.19, mn_loss: -0.05656
+Epoch: 35/60 Setp: 1050, ranking_loss: 1.64, id_loss: 0.24, mn_loss: -0.06004
+Epoch: 35/60 , ranking_loss: 1.26, id_loss: 0.21, mn_loss: -0.00532
+lr:0.0001
+lr:1e-05
+Epoch: 36/60 Setp: 50, ranking_loss: 1.42, id_loss: 0.32, mn_loss: 0.14567
+Epoch: 36/60 Setp: 100, ranking_loss: 1.66, id_loss: 0.20, mn_loss: 0.01329
+Epoch: 36/60 Setp: 150, ranking_loss: 1.64, id_loss: 0.12, mn_loss: -0.04196
+Epoch: 36/60 Setp: 200, ranking_loss: 0.66, id_loss: 0.14, mn_loss: -0.03408
+Epoch: 36/60 Setp: 250, ranking_loss: 0.76, id_loss: 0.22, mn_loss: 0.15728
+Epoch: 36/60 Setp: 300, ranking_loss: 0.65, id_loss: 0.11, mn_loss: -0.06725
+Epoch: 36/60 Setp: 350, ranking_loss: 1.35, id_loss: 0.21, mn_loss: -0.01507
+Epoch: 36/60 Setp: 400, ranking_loss: 1.01, id_loss: 0.24, mn_loss: -0.06384
+Epoch: 36/60 Setp: 450, ranking_loss: 1.65, id_loss: 0.14, mn_loss: 0.08551
+Epoch: 36/60 Setp: 500, ranking_loss: 1.21, id_loss: 0.23, mn_loss: -0.03688
+Epoch: 36/60 Setp: 550, ranking_loss: 1.13, id_loss: 0.24, mn_loss: 0.05909
+Epoch: 36/60 Setp: 600, ranking_loss: 0.50, id_loss: 0.21, mn_loss: 0.02478
+Epoch: 36/60 Setp: 650, ranking_loss: 1.81, id_loss: 0.29, mn_loss: -0.04774
+Epoch: 36/60 Setp: 700, ranking_loss: 0.98, id_loss: 0.33, mn_loss: -0.06082
+Epoch: 36/60 Setp: 750, ranking_loss: 1.57, id_loss: 0.24, mn_loss: -0.06301
+Epoch: 36/60 Setp: 800, ranking_loss: 1.41, id_loss: 0.26, mn_loss: -0.01747
+Epoch: 36/60 Setp: 850, ranking_loss: 0.89, id_loss: 0.11, mn_loss: -0.07457
+Epoch: 36/60 Setp: 900, ranking_loss: 0.51, id_loss: 0.30, mn_loss: -0.04030
+Epoch: 36/60 Setp: 950, ranking_loss: 1.08, id_loss: 0.28, mn_loss: -0.01761
+Epoch: 36/60 Setp: 1000, ranking_loss: 1.29, id_loss: 0.28, mn_loss: -0.06261
+Epoch: 36/60 Setp: 1050, ranking_loss: 1.29, id_loss: 0.17, mn_loss: 0.07329
+Epoch: 36/60 , ranking_loss: 1.21, id_loss: 0.20, mn_loss: -0.00796
+lr:0.0001
+lr:1e-05
+Epoch: 37/60 Setp: 50, ranking_loss: 0.60, id_loss: 0.09, mn_loss: -0.06334
+Epoch: 37/60 Setp: 100, ranking_loss: 2.73, id_loss: 0.19, mn_loss: 0.14551
+Epoch: 37/60 Setp: 150, ranking_loss: 1.10, id_loss: 0.13, mn_loss: -0.08145
+Epoch: 37/60 Setp: 200, ranking_loss: 1.28, id_loss: 0.19, mn_loss: -0.01042
+Epoch: 37/60 Setp: 250, ranking_loss: 1.66, id_loss: 0.31, mn_loss: -0.07233
+Epoch: 37/60 Setp: 300, ranking_loss: 1.49, id_loss: 0.11, mn_loss: -0.04818
+Epoch: 37/60 Setp: 350, ranking_loss: 0.99, id_loss: 0.17, mn_loss: -0.08460
+Epoch: 37/60 Setp: 400, ranking_loss: 1.37, id_loss: 0.22, mn_loss: -0.02858
+Epoch: 37/60 Setp: 450, ranking_loss: 1.95, id_loss: 0.21, mn_loss: 0.00441
+Epoch: 37/60 Setp: 500, ranking_loss: 1.46, id_loss: 0.19, mn_loss: 0.04510
+Epoch: 37/60 Setp: 550, ranking_loss: 0.54, id_loss: 0.24, mn_loss: -0.04914
+Epoch: 37/60 Setp: 600, ranking_loss: 1.01, id_loss: 0.20, mn_loss: 0.21860
+Epoch: 37/60 Setp: 650, ranking_loss: 1.33, id_loss: 0.13, mn_loss: -0.06018
+Epoch: 37/60 Setp: 700, ranking_loss: 2.04, id_loss: 0.26, mn_loss: 0.00099
+Epoch: 37/60 Setp: 750, ranking_loss: 1.00, id_loss: 0.16, mn_loss: 0.00100
+Epoch: 37/60 Setp: 800, ranking_loss: 1.70, id_loss: 0.24, mn_loss: -0.02721
+Epoch: 37/60 Setp: 850, ranking_loss: 1.38, id_loss: 0.37, mn_loss: 0.02621
+Epoch: 37/60 Setp: 900, ranking_loss: 1.59, id_loss: 0.33, mn_loss: -0.04322
+Epoch: 37/60 Setp: 950, ranking_loss: 0.49, id_loss: 0.21, mn_loss: -0.07284
+Epoch: 37/60 Setp: 1000, ranking_loss: 2.28, id_loss: 0.25, mn_loss: -0.00269
+Epoch: 37/60 Setp: 1050, ranking_loss: 1.16, id_loss: 0.15, mn_loss: -0.06559
+Epoch: 37/60 , ranking_loss: 1.20, id_loss: 0.20, mn_loss: -0.00661
+lr:0.0001
+lr:1e-05
+Epoch: 38/60 Setp: 50, ranking_loss: 1.36, id_loss: 0.07, mn_loss: -0.04830
+Epoch: 38/60 Setp: 100, ranking_loss: 0.87, id_loss: 0.07, mn_loss: -0.05177
+Epoch: 38/60 Setp: 150, ranking_loss: 1.12, id_loss: 0.08, mn_loss: -0.06777
+Epoch: 38/60 Setp: 200, ranking_loss: 2.59, id_loss: 0.12, mn_loss: -0.02910
+Epoch: 38/60 Setp: 250, ranking_loss: 1.03, id_loss: 0.09, mn_loss: 0.00689
+Epoch: 38/60 Setp: 300, ranking_loss: 1.48, id_loss: 0.12, mn_loss: 0.01929
+Epoch: 38/60 Setp: 350, ranking_loss: 0.52, id_loss: 0.12, mn_loss: 0.08756
+Epoch: 38/60 Setp: 400, ranking_loss: 1.20, id_loss: 0.14, mn_loss: -0.00485
+Epoch: 38/60 Setp: 450, ranking_loss: 0.47, id_loss: 0.19, mn_loss: 0.08594
+Epoch: 38/60 Setp: 500, ranking_loss: 1.75, id_loss: 0.17, mn_loss: -0.07382
+Epoch: 38/60 Setp: 550, ranking_loss: 0.78, id_loss: 0.16, mn_loss: 0.04141
+Epoch: 38/60 Setp: 600, ranking_loss: 0.98, id_loss: 0.22, mn_loss: -0.07107
+Epoch: 38/60 Setp: 650, ranking_loss: 0.51, id_loss: 0.11, mn_loss: -0.02817
+Epoch: 38/60 Setp: 700, ranking_loss: 0.97, id_loss: 0.07, mn_loss: -0.03229
+Epoch: 38/60 Setp: 750, ranking_loss: 1.38, id_loss: 0.39, mn_loss: -0.00817
+Epoch: 38/60 Setp: 800, ranking_loss: 1.57, id_loss: 0.22, mn_loss: -0.06300
+Epoch: 38/60 Setp: 850, ranking_loss: 1.01, id_loss: 0.31, mn_loss: -0.05026
+Epoch: 38/60 Setp: 900, ranking_loss: 1.41, id_loss: 0.30, mn_loss: -0.07201
+Epoch: 38/60 Setp: 950, ranking_loss: 0.51, id_loss: 0.19, mn_loss: -0.01076
+Epoch: 38/60 Setp: 1000, ranking_loss: 1.16, id_loss: 0.35, mn_loss: 0.11857
+Epoch: 38/60 Setp: 1050, ranking_loss: 1.47, id_loss: 0.32, mn_loss: -0.05996
+Epoch: 38/60 , ranking_loss: 1.19, id_loss: 0.20, mn_loss: -0.00702
+lr:0.0001
+lr:1e-05
+Epoch: 39/60 Setp: 50, ranking_loss: 0.89, id_loss: 0.05, mn_loss: -0.05536
+Epoch: 39/60 Setp: 100, ranking_loss: 0.91, id_loss: 0.06, mn_loss: -0.00746
+Epoch: 39/60 Setp: 150, ranking_loss: 1.50, id_loss: 0.15, mn_loss: -0.06558
+Epoch: 39/60 Setp: 200, ranking_loss: 1.72, id_loss: 0.11, mn_loss: -0.00942
+Epoch: 39/60 Setp: 250, ranking_loss: 0.58, id_loss: 0.11, mn_loss: -0.07428
+Epoch: 39/60 Setp: 300, ranking_loss: 0.68, id_loss: 0.24, mn_loss: -0.08092
+Epoch: 39/60 Setp: 350, ranking_loss: 0.58, id_loss: 0.18, mn_loss: -0.04013
+Epoch: 39/60 Setp: 400, ranking_loss: 0.83, id_loss: 0.07, mn_loss: -0.05420
+Epoch: 39/60 Setp: 450, ranking_loss: 2.76, id_loss: 0.12, mn_loss: -0.03251
+Epoch: 39/60 Setp: 500, ranking_loss: 0.52, id_loss: 0.09, mn_loss: -0.04998
+Epoch: 39/60 Setp: 550, ranking_loss: 2.37, id_loss: 0.24, mn_loss: -0.06109
+Epoch: 39/60 Setp: 600, ranking_loss: 1.02, id_loss: 0.26, mn_loss: -0.02290
+Epoch: 39/60 Setp: 650, ranking_loss: 0.50, id_loss: 0.21, mn_loss: -0.02143
+Epoch: 39/60 Setp: 700, ranking_loss: 1.00, id_loss: 0.10, mn_loss: -0.08722
+Epoch: 39/60 Setp: 750, ranking_loss: 0.90, id_loss: 0.12, mn_loss: -0.04134
+Epoch: 39/60 Setp: 800, ranking_loss: 0.98, id_loss: 0.33, mn_loss: 0.01178
+Epoch: 39/60 Setp: 850, ranking_loss: 0.90, id_loss: 0.15, mn_loss: 0.09731
+Epoch: 39/60 Setp: 900, ranking_loss: 1.52, id_loss: 0.21, mn_loss: -0.07883
+Epoch: 39/60 Setp: 950, ranking_loss: 1.26, id_loss: 0.17, mn_loss: -0.05630
+Epoch: 39/60 Setp: 1000, ranking_loss: 0.38, id_loss: 0.21, mn_loss: -0.07391
+Epoch: 39/60 Setp: 1050, ranking_loss: 0.51, id_loss: 0.15, mn_loss: 0.17209
+Epoch: 39/60 , ranking_loss: 1.14, id_loss: 0.19, mn_loss: -0.01015
+lr:0.0001
+lr:1e-05
+Epoch: 40/60 Setp: 50, ranking_loss: 1.26, id_loss: 0.05, mn_loss: -0.04859
+Epoch: 40/60 Setp: 100, ranking_loss: 1.26, id_loss: 0.20, mn_loss: 0.05687
+Epoch: 40/60 Setp: 150, ranking_loss: 1.90, id_loss: 0.26, mn_loss: 0.02052
+Epoch: 40/60 Setp: 200, ranking_loss: 1.41, id_loss: 0.12, mn_loss: -0.06545
+Epoch: 40/60 Setp: 250, ranking_loss: 1.12, id_loss: 0.08, mn_loss: -0.06336
+Epoch: 40/60 Setp: 300, ranking_loss: 0.55, id_loss: 0.24, mn_loss: -0.06023
+Epoch: 40/60 Setp: 350, ranking_loss: 0.86, id_loss: 0.21, mn_loss: -0.06591
+Epoch: 40/60 Setp: 400, ranking_loss: 2.94, id_loss: 0.29, mn_loss: -0.04222
+Epoch: 40/60 Setp: 450, ranking_loss: 0.12, id_loss: 0.05, mn_loss: -0.08888
+Epoch: 40/60 Setp: 500, ranking_loss: 1.01, id_loss: 0.14, mn_loss: 0.12346
+Epoch: 40/60 Setp: 550, ranking_loss: 0.45, id_loss: 0.14, mn_loss: -0.08133
+Epoch: 40/60 Setp: 600, ranking_loss: 0.75, id_loss: 0.15, mn_loss: -0.05699
+Epoch: 40/60 Setp: 650, ranking_loss: 0.70, id_loss: 0.06, mn_loss: -0.06566
+Epoch: 40/60 Setp: 700, ranking_loss: 1.59, id_loss: 0.07, mn_loss: 0.02241
+Epoch: 40/60 Setp: 750, ranking_loss: 1.91, id_loss: 0.27, mn_loss: -0.01802
+Epoch: 40/60 Setp: 800, ranking_loss: 0.97, id_loss: 0.07, mn_loss: -0.09014
+Epoch: 40/60 Setp: 850, ranking_loss: 1.17, id_loss: 0.23, mn_loss: -0.05956
+Epoch: 40/60 Setp: 900, ranking_loss: 1.11, id_loss: 0.19, mn_loss: 0.05719
+Epoch: 40/60 Setp: 950, ranking_loss: 0.99, id_loss: 0.13, mn_loss: -0.07017
+Epoch: 40/60 Setp: 1000, ranking_loss: 2.40, id_loss: 0.13, mn_loss: 0.02706
+Epoch: 40/60 Setp: 1050, ranking_loss: 2.07, id_loss: 0.20, mn_loss: 0.00860
+Epoch: 40/60 , ranking_loss: 1.15, id_loss: 0.19, mn_loss: -0.01307
+lr:1e-05
+lr:1.0000000000000002e-06
+Epoch: 41/60 Setp: 50, ranking_loss: 2.23, id_loss: 0.27, mn_loss: -0.08030
+Epoch: 41/60 Setp: 100, ranking_loss: 2.42, id_loss: 0.11, mn_loss: -0.04203
+Epoch: 41/60 Setp: 150, ranking_loss: 1.80, id_loss: 0.35, mn_loss: -0.04374
+Epoch: 41/60 Setp: 200, ranking_loss: 0.89, id_loss: 0.09, mn_loss: -0.05430
+Epoch: 41/60 Setp: 250, ranking_loss: 0.41, id_loss: 0.05, mn_loss: -0.02464
+Epoch: 41/60 Setp: 300, ranking_loss: 0.77, id_loss: 0.07, mn_loss: -0.04074
+Epoch: 41/60 Setp: 350, ranking_loss: 0.74, id_loss: 0.19, mn_loss: -0.04998
+Epoch: 41/60 Setp: 400, ranking_loss: 0.84, id_loss: 0.05, mn_loss: 0.12651
+Epoch: 41/60 Setp: 450, ranking_loss: 1.30, id_loss: 0.11, mn_loss: 0.03935
+Epoch: 41/60 Setp: 500, ranking_loss: 1.65, id_loss: 0.28, mn_loss: 0.06334
+Epoch: 41/60 Setp: 550, ranking_loss: 0.83, id_loss: 0.24, mn_loss: 0.25476
+Epoch: 41/60 Setp: 600, ranking_loss: 0.75, id_loss: 0.22, mn_loss: -0.03985
+Epoch: 41/60 Setp: 650, ranking_loss: 1.24, id_loss: 0.31, mn_loss: 0.06061
+Epoch: 41/60 Setp: 700, ranking_loss: 1.07, id_loss: 0.18, mn_loss: -0.00800
+Epoch: 41/60 Setp: 750, ranking_loss: 1.48, id_loss: 0.15, mn_loss: -0.04279
+Epoch: 41/60 Setp: 800, ranking_loss: 0.31, id_loss: 0.08, mn_loss: -0.00910
+Epoch: 41/60 Setp: 850, ranking_loss: 1.29, id_loss: 0.09, mn_loss: -0.00648
+Epoch: 41/60 Setp: 900, ranking_loss: 2.51, id_loss: 0.21, mn_loss: -0.05315
+Epoch: 41/60 Setp: 950, ranking_loss: 0.53, id_loss: 0.08, mn_loss: -0.00880
+Epoch: 41/60 Setp: 1000, ranking_loss: 0.95, id_loss: 0.18, mn_loss: -0.06781
+Epoch: 41/60 Setp: 1050, ranking_loss: 0.64, id_loss: 0.06, mn_loss: 0.02647
+Epoch: 41/60 , ranking_loss: 1.09, id_loss: 0.15, mn_loss: -0.01202
+lr:1e-05
+lr:1.0000000000000002e-06
+Epoch: 42/60 Setp: 50, ranking_loss: 0.80, id_loss: 0.07, mn_loss: -0.09936
+Epoch: 42/60 Setp: 100, ranking_loss: 1.03, id_loss: 0.19, mn_loss: -0.06490
+Epoch: 42/60 Setp: 150, ranking_loss: 1.29, id_loss: 0.15, mn_loss: -0.05137
+Epoch: 42/60 Setp: 200, ranking_loss: 1.19, id_loss: 0.09, mn_loss: -0.07189
+Epoch: 42/60 Setp: 250, ranking_loss: 1.39, id_loss: 0.17, mn_loss: -0.07350
+Epoch: 42/60 Setp: 300, ranking_loss: 0.98, id_loss: 0.07, mn_loss: -0.03225
+Epoch: 42/60 Setp: 350, ranking_loss: 1.20, id_loss: 0.24, mn_loss: 0.03711
+Epoch: 42/60 Setp: 400, ranking_loss: 0.29, id_loss: 0.15, mn_loss: -0.05977
+Epoch: 42/60 Setp: 450, ranking_loss: 0.51, id_loss: 0.21, mn_loss: 0.06417
+Epoch: 42/60 Setp: 500, ranking_loss: 1.28, id_loss: 0.05, mn_loss: -0.04280
+Epoch: 42/60 Setp: 550, ranking_loss: 0.18, id_loss: 0.13, mn_loss: -0.09503
+Epoch: 42/60 Setp: 600, ranking_loss: 0.97, id_loss: 0.11, mn_loss: -0.03104
+Epoch: 42/60 Setp: 650, ranking_loss: 1.51, id_loss: 0.30, mn_loss: 0.10527
+Epoch: 42/60 Setp: 700, ranking_loss: 0.74, id_loss: 0.21, mn_loss: -0.04558
+Epoch: 42/60 Setp: 750, ranking_loss: 1.49, id_loss: 0.10, mn_loss: -0.05450
+Epoch: 42/60 Setp: 800, ranking_loss: 1.65, id_loss: 0.15, mn_loss: -0.04937
+Epoch: 42/60 Setp: 850, ranking_loss: 0.88, id_loss: 0.26, mn_loss: -0.05702
+Epoch: 42/60 Setp: 900, ranking_loss: 1.57, id_loss: 0.04, mn_loss: 0.03127
+Epoch: 42/60 Setp: 950, ranking_loss: 1.21, id_loss: 0.04, mn_loss: -0.07729
+Epoch: 42/60 Setp: 1000, ranking_loss: 1.32, id_loss: 0.12, mn_loss: -0.03835
+Epoch: 42/60 Setp: 1050, ranking_loss: 0.15, id_loss: 0.07, mn_loss: -0.00948
+Epoch: 42/60 , ranking_loss: 1.04, id_loss: 0.15, mn_loss: -0.01915
+lr:1e-05
+lr:1.0000000000000002e-06
+Epoch: 43/60 Setp: 50, ranking_loss: 1.50, id_loss: 0.22, mn_loss: 0.13653
+Epoch: 43/60 Setp: 100, ranking_loss: 0.73, id_loss: 0.37, mn_loss: 0.05255
+Epoch: 43/60 Setp: 150, ranking_loss: 1.59, id_loss: 0.19, mn_loss: 0.01035
+Epoch: 43/60 Setp: 200, ranking_loss: 1.23, id_loss: 0.18, mn_loss: 0.06011
+Epoch: 43/60 Setp: 250, ranking_loss: 1.64, id_loss: 0.20, mn_loss: 0.01319
+Epoch: 43/60 Setp: 300, ranking_loss: 0.08, id_loss: 0.08, mn_loss: 0.00438
+Epoch: 43/60 Setp: 350, ranking_loss: 0.74, id_loss: 0.19, mn_loss: -0.05535
+Epoch: 43/60 Setp: 400, ranking_loss: 1.03, id_loss: 0.25, mn_loss: -0.04186
+Epoch: 43/60 Setp: 450, ranking_loss: 1.06, id_loss: 0.13, mn_loss: -0.07920
+Epoch: 43/60 Setp: 500, ranking_loss: 1.13, id_loss: 0.17, mn_loss: -0.06715
+Epoch: 43/60 Setp: 550, ranking_loss: 1.03, id_loss: 0.05, mn_loss: -0.00012
+Epoch: 43/60 Setp: 600, ranking_loss: 0.93, id_loss: 0.18, mn_loss: 0.00206
+Epoch: 43/60 Setp: 650, ranking_loss: 0.94, id_loss: 0.04, mn_loss: -0.06557
+Epoch: 43/60 Setp: 700, ranking_loss: 0.58, id_loss: 0.12, mn_loss: -0.06774
+Epoch: 43/60 Setp: 750, ranking_loss: 0.97, id_loss: 0.12, mn_loss: 0.10669
+Epoch: 43/60 Setp: 800, ranking_loss: 0.23, id_loss: 0.16, mn_loss: -0.04438
+Epoch: 43/60 Setp: 850, ranking_loss: 0.80, id_loss: 0.18, mn_loss: -0.06728
+Epoch: 43/60 Setp: 900, ranking_loss: 0.99, id_loss: 0.25, mn_loss: -0.09626
+Epoch: 43/60 Setp: 950, ranking_loss: 0.17, id_loss: 0.05, mn_loss: -0.06564
+Epoch: 43/60 Setp: 1000, ranking_loss: 1.86, id_loss: 0.10, mn_loss: 0.19180
+Epoch: 43/60 Setp: 1050, ranking_loss: 0.74, id_loss: 0.09, mn_loss: -0.09102
+Epoch: 43/60 , ranking_loss: 1.03, id_loss: 0.14, mn_loss: -0.01788
+lr:1e-05
+lr:1.0000000000000002e-06
+Epoch: 44/60 Setp: 50, ranking_loss: 1.70, id_loss: 0.14, mn_loss: 0.10612
+Epoch: 44/60 Setp: 100, ranking_loss: 0.70, id_loss: 0.10, mn_loss: 0.06210
+Epoch: 44/60 Setp: 150, ranking_loss: 0.84, id_loss: 0.10, mn_loss: 0.01288
+Epoch: 44/60 Setp: 200, ranking_loss: 1.48, id_loss: 0.12, mn_loss: -0.04610
+Epoch: 44/60 Setp: 250, ranking_loss: 0.48, id_loss: 0.32, mn_loss: 0.01591
+Epoch: 44/60 Setp: 300, ranking_loss: 1.27, id_loss: 0.09, mn_loss: 0.03192
+Epoch: 44/60 Setp: 350, ranking_loss: 0.95, id_loss: 0.04, mn_loss: -0.12000
+Epoch: 44/60 Setp: 400, ranking_loss: 1.85, id_loss: 0.16, mn_loss: -0.02617
+Epoch: 44/60 Setp: 450, ranking_loss: 1.00, id_loss: 0.21, mn_loss: -0.10854
+Epoch: 44/60 Setp: 500, ranking_loss: 1.47, id_loss: 0.22, mn_loss: 0.03625
+Epoch: 44/60 Setp: 550, ranking_loss: 1.53, id_loss: 0.05, mn_loss: -0.08664
+Epoch: 44/60 Setp: 600, ranking_loss: 1.51, id_loss: 0.17, mn_loss: 0.13222
+Epoch: 44/60 Setp: 650, ranking_loss: 0.28, id_loss: 0.20, mn_loss: -0.05207
+Epoch: 44/60 Setp: 700, ranking_loss: 0.74, id_loss: 0.13, mn_loss: -0.10125
+Epoch: 44/60 Setp: 750, ranking_loss: 0.63, id_loss: 0.15, mn_loss: 0.02007
+Epoch: 44/60 Setp: 800, ranking_loss: 2.23, id_loss: 0.16, mn_loss: -0.00062
+Epoch: 44/60 Setp: 850, ranking_loss: 1.28, id_loss: 0.16, mn_loss: -0.06337
+Epoch: 44/60 Setp: 900, ranking_loss: 0.98, id_loss: 0.14, mn_loss: -0.07765
+Epoch: 44/60 Setp: 950, ranking_loss: 0.95, id_loss: 0.13, mn_loss: -0.05539
+Epoch: 44/60 Setp: 1000, ranking_loss: 1.02, id_loss: 0.11, mn_loss: -0.04540
+Epoch: 44/60 Setp: 1050, ranking_loss: 1.16, id_loss: 0.10, mn_loss: -0.06566
+Epoch: 44/60 , ranking_loss: 1.03, id_loss: 0.14, mn_loss: -0.02070
+lr:1e-05
+lr:1.0000000000000002e-06
+Epoch: 45/60 Setp: 50, ranking_loss: 1.39, id_loss: 0.12, mn_loss: 0.00644
+Epoch: 45/60 Setp: 100, ranking_loss: 1.32, id_loss: 0.15, mn_loss: -0.03940
+Epoch: 45/60 Setp: 150, ranking_loss: 1.31, id_loss: 0.05, mn_loss: 0.01871
+Epoch: 45/60 Setp: 200, ranking_loss: 1.83, id_loss: 0.19, mn_loss: -0.06999
+Epoch: 45/60 Setp: 250, ranking_loss: 1.12, id_loss: 0.32, mn_loss: -0.00580
+Epoch: 45/60 Setp: 300, ranking_loss: 1.34, id_loss: 0.15, mn_loss: 0.05016
+Epoch: 45/60 Setp: 350, ranking_loss: 0.26, id_loss: 0.09, mn_loss: -0.00175
+Epoch: 45/60 Setp: 400, ranking_loss: 0.64, id_loss: 0.18, mn_loss: -0.09972
+Epoch: 45/60 Setp: 450, ranking_loss: 0.61, id_loss: 0.06, mn_loss: -0.05095
+Epoch: 45/60 Setp: 500, ranking_loss: 0.89, id_loss: 0.13, mn_loss: -0.01910
+Epoch: 45/60 Setp: 550, ranking_loss: 1.14, id_loss: 0.21, mn_loss: -0.05054
+Epoch: 45/60 Setp: 600, ranking_loss: 1.39, id_loss: 0.05, mn_loss: 0.02710
+Epoch: 45/60 Setp: 650, ranking_loss: 1.22, id_loss: 0.11, mn_loss: 0.01240
+Epoch: 45/60 Setp: 700, ranking_loss: 1.15, id_loss: 0.12, mn_loss: -0.07996
+Epoch: 45/60 Setp: 750, ranking_loss: 1.62, id_loss: 0.18, mn_loss: -0.02497
+Epoch: 45/60 Setp: 800, ranking_loss: 1.26, id_loss: 0.08, mn_loss: -0.08852
+Epoch: 45/60 Setp: 850, ranking_loss: 0.67, id_loss: 0.18, mn_loss: -0.06481
+Epoch: 45/60 Setp: 900, ranking_loss: 1.16, id_loss: 0.20, mn_loss: -0.08178
+Epoch: 45/60 Setp: 950, ranking_loss: 1.57, id_loss: 0.09, mn_loss: -0.02776
+Epoch: 45/60 Setp: 1000, ranking_loss: 0.37, id_loss: 0.11, mn_loss: 0.16631
+Epoch: 45/60 Setp: 1050, ranking_loss: 0.32, id_loss: 0.05, mn_loss: 0.07113
+Epoch: 45/60 , ranking_loss: 1.03, id_loss: 0.14, mn_loss: -0.02057
+lr:1e-05
+lr:1.0000000000000002e-06
+Epoch: 46/60 Setp: 50, ranking_loss: 0.49, id_loss: 0.16, mn_loss: 0.08871
+Epoch: 46/60 Setp: 100, ranking_loss: 1.65, id_loss: 0.08, mn_loss: 0.04783
+Epoch: 46/60 Setp: 150, ranking_loss: 1.02, id_loss: 0.16, mn_loss: -0.04865
+Epoch: 46/60 Setp: 200, ranking_loss: 1.02, id_loss: 0.05, mn_loss: -0.05259
+Epoch: 46/60 Setp: 250, ranking_loss: 1.02, id_loss: 0.06, mn_loss: 0.06927
+Epoch: 46/60 Setp: 300, ranking_loss: 0.09, id_loss: 0.10, mn_loss: -0.08372
+Epoch: 46/60 Setp: 350, ranking_loss: 1.56, id_loss: 0.11, mn_loss: -0.07281
+Epoch: 46/60 Setp: 400, ranking_loss: 1.73, id_loss: 0.26, mn_loss: 0.13422
+Epoch: 46/60 Setp: 450, ranking_loss: 0.46, id_loss: 0.18, mn_loss: -0.04074
+Epoch: 46/60 Setp: 500, ranking_loss: 1.41, id_loss: 0.10, mn_loss: -0.03344
+Epoch: 46/60 Setp: 550, ranking_loss: 1.40, id_loss: 0.12, mn_loss: 0.20087
+Epoch: 46/60 Setp: 600, ranking_loss: 2.18, id_loss: 0.20, mn_loss: 0.02261
+Epoch: 46/60 Setp: 650, ranking_loss: 1.06, id_loss: 0.12, mn_loss: 0.21861
+Epoch: 46/60 Setp: 700, ranking_loss: 1.68, id_loss: 0.18, mn_loss: -0.00740
+Epoch: 46/60 Setp: 750, ranking_loss: 0.51, id_loss: 0.08, mn_loss: -0.01834
+Epoch: 46/60 Setp: 800, ranking_loss: 0.68, id_loss: 0.21, mn_loss: -0.02590
+Epoch: 46/60 Setp: 850, ranking_loss: 1.58, id_loss: 0.06, mn_loss: -0.02066
+Epoch: 46/60 Setp: 900, ranking_loss: 0.78, id_loss: 0.19, mn_loss: -0.06779
+Epoch: 46/60 Setp: 950, ranking_loss: 1.19, id_loss: 0.07, mn_loss: -0.07468
+Epoch: 46/60 Setp: 1000, ranking_loss: 0.26, id_loss: 0.09, mn_loss: -0.06671
+Epoch: 46/60 Setp: 1050, ranking_loss: 1.03, id_loss: 0.14, mn_loss: -0.02175
+Epoch: 46/60 , ranking_loss: 1.02, id_loss: 0.14, mn_loss: -0.02345
+lr:1e-05
+lr:1.0000000000000002e-06
+Epoch: 47/60 Setp: 50, ranking_loss: 0.47, id_loss: 0.07, mn_loss: -0.05321
+Epoch: 47/60 Setp: 100, ranking_loss: 0.57, id_loss: 0.04, mn_loss: 0.06482
+Epoch: 47/60 Setp: 150, ranking_loss: 0.73, id_loss: 0.21, mn_loss: -0.04533
+Epoch: 47/60 Setp: 200, ranking_loss: 1.41, id_loss: 0.15, mn_loss: -0.03312
+Epoch: 47/60 Setp: 250, ranking_loss: 1.39, id_loss: 0.07, mn_loss: 0.09508
+Epoch: 47/60 Setp: 300, ranking_loss: 0.96, id_loss: 0.25, mn_loss: -0.02320
+Epoch: 47/60 Setp: 350, ranking_loss: 0.53, id_loss: 0.11, mn_loss: 0.12286
+Epoch: 47/60 Setp: 400, ranking_loss: 0.99, id_loss: 0.03, mn_loss: -0.04994
+Epoch: 47/60 Setp: 450, ranking_loss: 0.56, id_loss: 0.08, mn_loss: -0.06679
+Epoch: 47/60 Setp: 500, ranking_loss: 0.59, id_loss: 0.05, mn_loss: -0.07582
+Epoch: 47/60 Setp: 550, ranking_loss: 0.85, id_loss: 0.12, mn_loss: -0.04117
+Epoch: 47/60 Setp: 600, ranking_loss: 1.26, id_loss: 0.26, mn_loss: 0.05517
+Epoch: 47/60 Setp: 650, ranking_loss: 2.05, id_loss: 0.12, mn_loss: -0.05792
+Epoch: 47/60 Setp: 700, ranking_loss: 1.70, id_loss: 0.20, mn_loss: -0.00870
+Epoch: 47/60 Setp: 750, ranking_loss: 0.78, id_loss: 0.19, mn_loss: -0.04676
+Epoch: 47/60 Setp: 800, ranking_loss: 1.46, id_loss: 0.19, mn_loss: -0.00837
+Epoch: 47/60 Setp: 850, ranking_loss: 0.23, id_loss: 0.12, mn_loss: -0.04267
+Epoch: 47/60 Setp: 900, ranking_loss: 0.55, id_loss: 0.10, mn_loss: -0.00700
+Epoch: 47/60 Setp: 950, ranking_loss: 1.56, id_loss: 0.45, mn_loss: 0.01607
+Epoch: 47/60 Setp: 1000, ranking_loss: 0.86, id_loss: 0.25, mn_loss: -0.05663
+Epoch: 47/60 Setp: 1050, ranking_loss: 2.01, id_loss: 0.13, mn_loss: -0.04290
+Epoch: 47/60 , ranking_loss: 1.02, id_loss: 0.14, mn_loss: -0.02104
+lr:1e-05
+lr:1.0000000000000002e-06
+Epoch: 48/60 Setp: 50, ranking_loss: 1.76, id_loss: 0.22, mn_loss: -0.01831
+Epoch: 48/60 Setp: 100, ranking_loss: 0.87, id_loss: 0.10, mn_loss: -0.05124
+Epoch: 48/60 Setp: 150, ranking_loss: 2.18, id_loss: 0.08, mn_loss: -0.02236
+Epoch: 48/60 Setp: 200, ranking_loss: 0.89, id_loss: 0.10, mn_loss: -0.04110
+Epoch: 48/60 Setp: 250, ranking_loss: 1.39, id_loss: 0.20, mn_loss: 0.08414
+Epoch: 48/60 Setp: 300, ranking_loss: 1.17, id_loss: 0.08, mn_loss: -0.04387
+Epoch: 48/60 Setp: 350, ranking_loss: 1.84, id_loss: 0.11, mn_loss: -0.01771
+Epoch: 48/60 Setp: 400, ranking_loss: 1.66, id_loss: 0.26, mn_loss: -0.04617
+Epoch: 48/60 Setp: 450, ranking_loss: 0.69, id_loss: 0.12, mn_loss: 0.02617
+Epoch: 48/60 Setp: 500, ranking_loss: 1.43, id_loss: 0.12, mn_loss: 0.04307
+Epoch: 48/60 Setp: 550, ranking_loss: 1.00, id_loss: 0.08, mn_loss: -0.05710
+Epoch: 48/60 Setp: 600, ranking_loss: 0.17, id_loss: 0.11, mn_loss: -0.05095
+Epoch: 48/60 Setp: 650, ranking_loss: 0.37, id_loss: 0.09, mn_loss: -0.07331
+Epoch: 48/60 Setp: 700, ranking_loss: 1.07, id_loss: 0.12, mn_loss: -0.04054
+Epoch: 48/60 Setp: 750, ranking_loss: 2.21, id_loss: 0.08, mn_loss: -0.07685
+Epoch: 48/60 Setp: 800, ranking_loss: 1.09, id_loss: 0.09, mn_loss: 0.09113
+Epoch: 48/60 Setp: 850, ranking_loss: 1.25, id_loss: 0.15, mn_loss: 0.21577
+Epoch: 48/60 Setp: 900, ranking_loss: 1.83, id_loss: 0.08, mn_loss: 0.02040
+Epoch: 48/60 Setp: 950, ranking_loss: 2.38, id_loss: 0.20, mn_loss: 0.07634
+Epoch: 48/60 Setp: 1000, ranking_loss: 0.33, id_loss: 0.06, mn_loss: -0.05989
+Epoch: 48/60 Setp: 1050, ranking_loss: 0.58, id_loss: 0.13, mn_loss: -0.00955
+Epoch: 48/60 , ranking_loss: 1.01, id_loss: 0.14, mn_loss: -0.02017
+lr:1e-05
+lr:1.0000000000000002e-06
+Epoch: 49/60 Setp: 50, ranking_loss: 0.13, id_loss: 0.13, mn_loss: -0.08199
+Epoch: 49/60 Setp: 100, ranking_loss: 0.93, id_loss: 0.15, mn_loss: 0.01420
+Epoch: 49/60 Setp: 150, ranking_loss: 0.77, id_loss: 0.08, mn_loss: 0.13215
+Epoch: 49/60 Setp: 200, ranking_loss: 0.34, id_loss: 0.11, mn_loss: -0.08168
+Epoch: 49/60 Setp: 250, ranking_loss: 1.75, id_loss: 0.07, mn_loss: 0.00248
+Epoch: 49/60 Setp: 300, ranking_loss: 0.37, id_loss: 0.14, mn_loss: -0.07123
+Epoch: 49/60 Setp: 350, ranking_loss: 1.22, id_loss: 0.19, mn_loss: 0.01359
+Epoch: 49/60 Setp: 400, ranking_loss: 1.83, id_loss: 0.05, mn_loss: 0.02562
+Epoch: 49/60 Setp: 450, ranking_loss: 0.33, id_loss: 0.12, mn_loss: -0.07684
+Epoch: 49/60 Setp: 500, ranking_loss: 0.45, id_loss: 0.07, mn_loss: -0.05606
+Epoch: 49/60 Setp: 550, ranking_loss: 0.73, id_loss: 0.11, mn_loss: -0.02378
+Epoch: 49/60 Setp: 600, ranking_loss: 0.53, id_loss: 0.06, mn_loss: -0.03777
+Epoch: 49/60 Setp: 650, ranking_loss: 0.69, id_loss: 0.09, mn_loss: -0.00870
+Epoch: 49/60 Setp: 700, ranking_loss: 1.59, id_loss: 0.21, mn_loss: -0.07793
+Epoch: 49/60 Setp: 750, ranking_loss: 1.24, id_loss: 0.16, mn_loss: -0.07764
+Epoch: 49/60 Setp: 800, ranking_loss: 0.71, id_loss: 0.10, mn_loss: -0.07924
+Epoch: 49/60 Setp: 850, ranking_loss: 0.82, id_loss: 0.23, mn_loss: -0.08456
+Epoch: 49/60 Setp: 900, ranking_loss: 1.77, id_loss: 0.03, mn_loss: -0.07803
+Epoch: 49/60 Setp: 950, ranking_loss: 1.23, id_loss: 0.12, mn_loss: 0.08402
+Epoch: 49/60 Setp: 1000, ranking_loss: 0.91, id_loss: 0.17, mn_loss: -0.06046
+Epoch: 49/60 Setp: 1050, ranking_loss: 0.99, id_loss: 0.17, mn_loss: 0.09231
+Epoch: 49/60 , ranking_loss: 1.04, id_loss: 0.14, mn_loss: -0.01911
+lr:1e-05
+lr:1.0000000000000002e-06
+Epoch: 50/60 Setp: 50, ranking_loss: 1.14, id_loss: 0.17, mn_loss: -0.05996
+Epoch: 50/60 Setp: 100, ranking_loss: 0.52, id_loss: 0.17, mn_loss: -0.09984
+Epoch: 50/60 Setp: 150, ranking_loss: 0.40, id_loss: 0.07, mn_loss: -0.01079
+Epoch: 50/60 Setp: 200, ranking_loss: 1.34, id_loss: 0.05, mn_loss: 0.02433
+Epoch: 50/60 Setp: 250, ranking_loss: 1.04, id_loss: 0.16, mn_loss: 0.22241
+Epoch: 50/60 Setp: 300, ranking_loss: 1.34, id_loss: 0.09, mn_loss: -0.01411
+Epoch: 50/60 Setp: 350, ranking_loss: 1.28, id_loss: 0.08, mn_loss: -0.04995
+Epoch: 50/60 Setp: 400, ranking_loss: 0.85, id_loss: 0.18, mn_loss: -0.10749
+Epoch: 50/60 Setp: 450, ranking_loss: 1.53, id_loss: 0.13, mn_loss: -0.05846
+Epoch: 50/60 Setp: 500, ranking_loss: 0.18, id_loss: 0.08, mn_loss: -0.08512
+Epoch: 50/60 Setp: 550, ranking_loss: 1.33, id_loss: 0.07, mn_loss: -0.09220
+Epoch: 50/60 Setp: 600, ranking_loss: 1.58, id_loss: 0.22, mn_loss: 0.05812
+Epoch: 50/60 Setp: 650, ranking_loss: 1.39, id_loss: 0.14, mn_loss: -0.04766
+Epoch: 50/60 Setp: 700, ranking_loss: 0.69, id_loss: 0.06, mn_loss: -0.09124
+Epoch: 50/60 Setp: 750, ranking_loss: 0.42, id_loss: 0.10, mn_loss: 0.15930
+Epoch: 50/60 Setp: 800, ranking_loss: 0.80, id_loss: 0.12, mn_loss: 0.20622
+Epoch: 50/60 Setp: 850, ranking_loss: 0.75, id_loss: 0.15, mn_loss: 0.02197
+Epoch: 50/60 Setp: 900, ranking_loss: 1.39, id_loss: 0.22, mn_loss: -0.07183
+Epoch: 50/60 Setp: 950, ranking_loss: 1.51, id_loss: 0.20, mn_loss: -0.04162
+Epoch: 50/60 Setp: 1000, ranking_loss: 1.36, id_loss: 0.16, mn_loss: -0.08330
+Epoch: 50/60 Setp: 1050, ranking_loss: 0.64, id_loss: 0.19, mn_loss: 0.06647
+Epoch: 50/60 , ranking_loss: 1.01, id_loss: 0.14, mn_loss: -0.02125
+lr:1e-05
+lr:1.0000000000000002e-06
+Epoch: 51/60 Setp: 50, ranking_loss: 1.43, id_loss: 0.11, mn_loss: -0.05439
+Epoch: 51/60 Setp: 100, ranking_loss: 1.20, id_loss: 0.08, mn_loss: -0.00870
+Epoch: 51/60 Setp: 150, ranking_loss: 0.88, id_loss: 0.06, mn_loss: -0.02140
+Epoch: 51/60 Setp: 200, ranking_loss: 0.46, id_loss: 0.16, mn_loss: 0.01132
+Epoch: 51/60 Setp: 250, ranking_loss: 0.76, id_loss: 0.08, mn_loss: -0.04100
+Epoch: 51/60 Setp: 300, ranking_loss: 0.45, id_loss: 0.10, mn_loss: -0.02136
+Epoch: 51/60 Setp: 350, ranking_loss: 0.74, id_loss: 0.13, mn_loss: -0.02240
+Epoch: 51/60 Setp: 400, ranking_loss: 0.69, id_loss: 0.20, mn_loss: -0.09016
+Epoch: 51/60 Setp: 450, ranking_loss: 0.37, id_loss: 0.26, mn_loss: 0.07545
+Epoch: 51/60 Setp: 500, ranking_loss: 0.96, id_loss: 0.21, mn_loss: -0.08781
+Epoch: 51/60 Setp: 550, ranking_loss: 0.45, id_loss: 0.07, mn_loss: -0.03450
+Epoch: 51/60 Setp: 600, ranking_loss: 1.05, id_loss: 0.09, mn_loss: -0.06480
+Epoch: 51/60 Setp: 650, ranking_loss: 0.62, id_loss: 0.10, mn_loss: -0.07546
+Epoch: 51/60 Setp: 700, ranking_loss: 1.61, id_loss: 0.17, mn_loss: -0.06474
+Epoch: 51/60 Setp: 750, ranking_loss: 0.69, id_loss: 0.10, mn_loss: 0.00708
+Epoch: 51/60 Setp: 800, ranking_loss: 0.53, id_loss: 0.12, mn_loss: -0.00940
+Epoch: 51/60 Setp: 850, ranking_loss: 1.22, id_loss: 0.11, mn_loss: -0.04236
+Epoch: 51/60 Setp: 900, ranking_loss: 0.41, id_loss: 0.07, mn_loss: -0.06326
+Epoch: 51/60 Setp: 950, ranking_loss: 1.01, id_loss: 0.04, mn_loss: 0.07380
+Epoch: 51/60 Setp: 1000, ranking_loss: 0.27, id_loss: 0.15, mn_loss: 0.12153
+Epoch: 51/60 Setp: 1050, ranking_loss: 0.69, id_loss: 0.18, mn_loss: -0.07091
+Epoch: 51/60 , ranking_loss: 0.98, id_loss: 0.14, mn_loss: -0.02118
+lr:1e-05
+lr:1.0000000000000002e-06
+Epoch: 52/60 Setp: 50, ranking_loss: 0.88, id_loss: 0.04, mn_loss: 0.06088
+Epoch: 52/60 Setp: 100, ranking_loss: 0.81, id_loss: 0.04, mn_loss: -0.06204
+Epoch: 52/60 Setp: 150, ranking_loss: 1.25, id_loss: 0.10, mn_loss: -0.07009
+Epoch: 52/60 Setp: 200, ranking_loss: 1.41, id_loss: 0.13, mn_loss: -0.06114
+Epoch: 52/60 Setp: 250, ranking_loss: 1.35, id_loss: 0.13, mn_loss: -0.03749
+Epoch: 52/60 Setp: 300, ranking_loss: 1.81, id_loss: 0.32, mn_loss: 0.01022
+Epoch: 52/60 Setp: 350, ranking_loss: 1.52, id_loss: 0.05, mn_loss: -0.08166
+Epoch: 52/60 Setp: 400, ranking_loss: 1.29, id_loss: 0.10, mn_loss: -0.04235
+Epoch: 52/60 Setp: 450, ranking_loss: 0.81, id_loss: 0.08, mn_loss: 0.01324
+Epoch: 52/60 Setp: 500, ranking_loss: 0.45, id_loss: 0.13, mn_loss: -0.06596
+Epoch: 52/60 Setp: 550, ranking_loss: 1.11, id_loss: 0.19, mn_loss: -0.05761
+Epoch: 52/60 Setp: 600, ranking_loss: 0.48, id_loss: 0.18, mn_loss: -0.09548
+Epoch: 52/60 Setp: 650, ranking_loss: 2.03, id_loss: 0.31, mn_loss: -0.02284
+Epoch: 52/60 Setp: 700, ranking_loss: 1.64, id_loss: 0.19, mn_loss: 0.10705
+Epoch: 52/60 Setp: 750, ranking_loss: 0.71, id_loss: 0.14, mn_loss: -0.00536
+Epoch: 52/60 Setp: 800, ranking_loss: 0.23, id_loss: 0.03, mn_loss: -0.08963
+Epoch: 52/60 Setp: 850, ranking_loss: 0.64, id_loss: 0.19, mn_loss: 0.00565
+Epoch: 52/60 Setp: 900, ranking_loss: 1.70, id_loss: 0.25, mn_loss: 0.00818
+Epoch: 52/60 Setp: 950, ranking_loss: 1.48, id_loss: 0.13, mn_loss: -0.08440
+Epoch: 52/60 Setp: 1000, ranking_loss: 0.87, id_loss: 0.13, mn_loss: -0.00785
+Epoch: 52/60 Setp: 1050, ranking_loss: 2.23, id_loss: 0.21, mn_loss: -0.07313
+Epoch: 52/60 , ranking_loss: 1.01, id_loss: 0.14, mn_loss: -0.01882
+lr:1e-05
+lr:1.0000000000000002e-06
+Epoch: 53/60 Setp: 50, ranking_loss: 1.49, id_loss: 0.11, mn_loss: -0.07844
+Epoch: 53/60 Setp: 100, ranking_loss: 0.95, id_loss: 0.30, mn_loss: 0.03147
+Epoch: 53/60 Setp: 150, ranking_loss: 1.94, id_loss: 0.20, mn_loss: -0.01940
+Epoch: 53/60 Setp: 200, ranking_loss: 0.64, id_loss: 0.08, mn_loss: 0.00180
+Epoch: 53/60 Setp: 250, ranking_loss: 1.09, id_loss: 0.15, mn_loss: -0.02305
+Epoch: 53/60 Setp: 300, ranking_loss: 1.81, id_loss: 0.23, mn_loss: -0.06671
+Epoch: 53/60 Setp: 350, ranking_loss: 1.66, id_loss: 0.22, mn_loss: -0.06268
+Epoch: 53/60 Setp: 400, ranking_loss: 1.28, id_loss: 0.05, mn_loss: -0.07167
+Epoch: 53/60 Setp: 450, ranking_loss: 1.36, id_loss: 0.09, mn_loss: 0.06301
+Epoch: 53/60 Setp: 500, ranking_loss: 0.33, id_loss: 0.18, mn_loss: -0.09142
+Epoch: 53/60 Setp: 550, ranking_loss: 1.01, id_loss: 0.12, mn_loss: -0.04717
+Epoch: 53/60 Setp: 600, ranking_loss: 0.41, id_loss: 0.06, mn_loss: -0.03960
+Epoch: 53/60 Setp: 650, ranking_loss: 1.24, id_loss: 0.14, mn_loss: -0.05713
+Epoch: 53/60 Setp: 700, ranking_loss: 1.02, id_loss: 0.08, mn_loss: 0.02181
+Epoch: 53/60 Setp: 750, ranking_loss: 0.99, id_loss: 0.21, mn_loss: -0.02887
+Epoch: 53/60 Setp: 800, ranking_loss: 0.94, id_loss: 0.14, mn_loss: -0.02094
+Epoch: 53/60 Setp: 850, ranking_loss: 0.82, id_loss: 0.03, mn_loss: -0.00800
+Epoch: 53/60 Setp: 900, ranking_loss: 1.26, id_loss: 0.07, mn_loss: -0.03304
+Epoch: 53/60 Setp: 950, ranking_loss: 1.20, id_loss: 0.22, mn_loss: -0.05143
+Epoch: 53/60 Setp: 1000, ranking_loss: 1.05, id_loss: 0.13, mn_loss: -0.07147
+Epoch: 53/60 Setp: 1050, ranking_loss: 0.47, id_loss: 0.16, mn_loss: -0.06962
+Epoch: 53/60 , ranking_loss: 0.99, id_loss: 0.14, mn_loss: -0.02207
+lr:1e-05
+lr:1.0000000000000002e-06
+Epoch: 54/60 Setp: 50, ranking_loss: 0.90, id_loss: 0.13, mn_loss: -0.05311
+Epoch: 54/60 Setp: 100, ranking_loss: 0.94, id_loss: 0.18, mn_loss: -0.08225
+Epoch: 54/60 Setp: 150, ranking_loss: 1.81, id_loss: 0.09, mn_loss: -0.08058
+Epoch: 54/60 Setp: 200, ranking_loss: 0.51, id_loss: 0.08, mn_loss: 0.03510
+Epoch: 54/60 Setp: 250, ranking_loss: 1.38, id_loss: 0.23, mn_loss: -0.08956
+Epoch: 54/60 Setp: 300, ranking_loss: 0.74, id_loss: 0.14, mn_loss: -0.03884
+Epoch: 54/60 Setp: 350, ranking_loss: 0.60, id_loss: 0.07, mn_loss: -0.04752
+Epoch: 54/60 Setp: 400, ranking_loss: 1.01, id_loss: 0.04, mn_loss: -0.05730
+Epoch: 54/60 Setp: 450, ranking_loss: 0.39, id_loss: 0.08, mn_loss: -0.02280
+Epoch: 54/60 Setp: 500, ranking_loss: 1.38, id_loss: 0.05, mn_loss: -0.04943
+Epoch: 54/60 Setp: 550, ranking_loss: 1.71, id_loss: 0.22, mn_loss: -0.09200
+Epoch: 54/60 Setp: 600, ranking_loss: 1.25, id_loss: 0.22, mn_loss: -0.04061
+Epoch: 54/60 Setp: 650, ranking_loss: 0.64, id_loss: 0.25, mn_loss: -0.04646
+Epoch: 54/60 Setp: 700, ranking_loss: 1.63, id_loss: 0.13, mn_loss: -0.00068
+Epoch: 54/60 Setp: 750, ranking_loss: 0.71, id_loss: 0.31, mn_loss: 0.05133
+Epoch: 54/60 Setp: 800, ranking_loss: 0.79, id_loss: 0.21, mn_loss: 0.00263
+Epoch: 54/60 Setp: 850, ranking_loss: 1.25, id_loss: 0.04, mn_loss: -0.00180
+Epoch: 54/60 Setp: 900, ranking_loss: 0.54, id_loss: 0.15, mn_loss: -0.04079
+Epoch: 54/60 Setp: 950, ranking_loss: 1.09, id_loss: 0.23, mn_loss: -0.10100
+Epoch: 54/60 Setp: 1000, ranking_loss: 0.99, id_loss: 0.09, mn_loss: -0.07572
+Epoch: 54/60 Setp: 1050, ranking_loss: 1.04, id_loss: 0.21, mn_loss: 0.00751
+Epoch: 54/60 , ranking_loss: 0.99, id_loss: 0.14, mn_loss: -0.02405
+lr:1e-05
+lr:1.0000000000000002e-06
+Epoch: 55/60 Setp: 50, ranking_loss: 0.14, id_loss: 0.17, mn_loss: -0.07363
+Epoch: 55/60 Setp: 100, ranking_loss: 1.18, id_loss: 0.31, mn_loss: -0.03413
+Epoch: 55/60 Setp: 150, ranking_loss: 0.70, id_loss: 0.16, mn_loss: -0.03299
+Epoch: 55/60 Setp: 200, ranking_loss: 0.94, id_loss: 0.11, mn_loss: 0.13826
+Epoch: 55/60 Setp: 250, ranking_loss: 0.97, id_loss: 0.14, mn_loss: 0.14265
+Epoch: 55/60 Setp: 300, ranking_loss: 0.37, id_loss: 0.12, mn_loss: -0.07626
+Epoch: 55/60 Setp: 350, ranking_loss: 1.15, id_loss: 0.23, mn_loss: 0.04751
+Epoch: 55/60 Setp: 400, ranking_loss: 0.66, id_loss: 0.03, mn_loss: -0.03218
+Epoch: 55/60 Setp: 450, ranking_loss: 0.49, id_loss: 0.16, mn_loss: 0.04798
+Epoch: 55/60 Setp: 500, ranking_loss: 0.94, id_loss: 0.13, mn_loss: 0.13928
+Epoch: 55/60 Setp: 550, ranking_loss: 1.80, id_loss: 0.06, mn_loss: -0.06752
+Epoch: 55/60 Setp: 600, ranking_loss: 0.26, id_loss: 0.13, mn_loss: -0.03794
+Epoch: 55/60 Setp: 650, ranking_loss: 0.41, id_loss: 0.07, mn_loss: 0.07332
+Epoch: 55/60 Setp: 700, ranking_loss: 0.54, id_loss: 0.13, mn_loss: -0.04256
+Epoch: 55/60 Setp: 750, ranking_loss: 0.97, id_loss: 0.06, mn_loss: -0.06064
+Epoch: 55/60 Setp: 800, ranking_loss: 1.07, id_loss: 0.04, mn_loss: -0.05870
+Epoch: 55/60 Setp: 850, ranking_loss: 0.31, id_loss: 0.04, mn_loss: 0.06040
+Epoch: 55/60 Setp: 900, ranking_loss: 0.24, id_loss: 0.21, mn_loss: -0.08345
+Epoch: 55/60 Setp: 950, ranking_loss: 0.37, id_loss: 0.22, mn_loss: -0.10272
+Epoch: 55/60 Setp: 1000, ranking_loss: 1.17, id_loss: 0.19, mn_loss: 0.26193
+Epoch: 55/60 Setp: 1050, ranking_loss: 1.80, id_loss: 0.11, mn_loss: -0.05843
+Epoch: 55/60 , ranking_loss: 0.99, id_loss: 0.14, mn_loss: -0.02670
+lr:1e-05
+lr:1.0000000000000002e-06
+Epoch: 56/60 Setp: 50, ranking_loss: 1.40, id_loss: 0.10, mn_loss: -0.07513
+Epoch: 56/60 Setp: 100, ranking_loss: 0.77, id_loss: 0.05, mn_loss: -0.07202
+Epoch: 56/60 Setp: 150, ranking_loss: 1.28, id_loss: 0.25, mn_loss: -0.02301
+Epoch: 56/60 Setp: 200, ranking_loss: 1.71, id_loss: 0.06, mn_loss: -0.03822
+Epoch: 56/60 Setp: 250, ranking_loss: 0.71, id_loss: 0.10, mn_loss: -0.06821
+Epoch: 56/60 Setp: 300, ranking_loss: 1.02, id_loss: 0.18, mn_loss: 0.05153
+Epoch: 56/60 Setp: 350, ranking_loss: 1.24, id_loss: 0.15, mn_loss: -0.07556
+Epoch: 56/60 Setp: 400, ranking_loss: 0.31, id_loss: 0.06, mn_loss: 0.00966
+Epoch: 56/60 Setp: 450, ranking_loss: 0.65, id_loss: 0.10, mn_loss: -0.04816
+Epoch: 56/60 Setp: 500, ranking_loss: 0.38, id_loss: 0.25, mn_loss: 0.01840
+Epoch: 56/60 Setp: 550, ranking_loss: 0.96, id_loss: 0.24, mn_loss: -0.07392
+Epoch: 56/60 Setp: 600, ranking_loss: 0.42, id_loss: 0.06, mn_loss: 0.10509
+Epoch: 56/60 Setp: 650, ranking_loss: 0.61, id_loss: 0.07, mn_loss: -0.07716
+Epoch: 56/60 Setp: 700, ranking_loss: 1.35, id_loss: 0.09, mn_loss: 0.12370
+Epoch: 56/60 Setp: 750, ranking_loss: 1.01, id_loss: 0.06, mn_loss: -0.07665
+Epoch: 56/60 Setp: 800, ranking_loss: 0.58, id_loss: 0.16, mn_loss: -0.08381
+Epoch: 56/60 Setp: 850, ranking_loss: 0.92, id_loss: 0.08, mn_loss: -0.01059
+Epoch: 56/60 Setp: 900, ranking_loss: 0.18, id_loss: 0.13, mn_loss: -0.05870
+Epoch: 56/60 Setp: 950, ranking_loss: 1.80, id_loss: 0.30, mn_loss: -0.06589
+Epoch: 56/60 Setp: 1000, ranking_loss: 0.71, id_loss: 0.15, mn_loss: -0.05503
+Epoch: 56/60 Setp: 1050, ranking_loss: 1.17, id_loss: 0.11, mn_loss: 0.02054
+Epoch: 56/60 , ranking_loss: 0.99, id_loss: 0.14, mn_loss: -0.02302
+lr:1e-05
+lr:1.0000000000000002e-06
+Epoch: 57/60 Setp: 50, ranking_loss: 1.78, id_loss: 0.27, mn_loss: -0.03290
+Epoch: 57/60 Setp: 100, ranking_loss: 1.13, id_loss: 0.22, mn_loss: -0.04271
+Epoch: 57/60 Setp: 150, ranking_loss: 0.85, id_loss: 0.19, mn_loss: -0.06442
+Epoch: 57/60 Setp: 200, ranking_loss: 2.06, id_loss: 0.13, mn_loss: -0.08869
+Epoch: 57/60 Setp: 250, ranking_loss: 1.30, id_loss: 0.04, mn_loss: -0.06859
+Epoch: 57/60 Setp: 300, ranking_loss: 0.44, id_loss: 0.32, mn_loss: -0.05325
+Epoch: 57/60 Setp: 350, ranking_loss: 1.01, id_loss: 0.26, mn_loss: 0.02406
+Epoch: 57/60 Setp: 400, ranking_loss: 0.66, id_loss: 0.10, mn_loss: -0.08757
+Epoch: 57/60 Setp: 450, ranking_loss: 0.19, id_loss: 0.09, mn_loss: -0.08540
+Epoch: 57/60 Setp: 500, ranking_loss: 0.97, id_loss: 0.10, mn_loss: 0.04218
+Epoch: 57/60 Setp: 550, ranking_loss: 0.66, id_loss: 0.20, mn_loss: -0.09466
+Epoch: 57/60 Setp: 600, ranking_loss: 0.64, id_loss: 0.13, mn_loss: -0.07022
+Epoch: 57/60 Setp: 650, ranking_loss: 0.69, id_loss: 0.03, mn_loss: 0.05091
+Epoch: 57/60 Setp: 700, ranking_loss: 1.90, id_loss: 0.16, mn_loss: 0.00700
+Epoch: 57/60 Setp: 750, ranking_loss: 1.53, id_loss: 0.05, mn_loss: -0.02893
+Epoch: 57/60 Setp: 800, ranking_loss: 0.52, id_loss: 0.11, mn_loss: -0.05456
+Epoch: 57/60 Setp: 850, ranking_loss: 0.92, id_loss: 0.05, mn_loss: -0.07737
+Epoch: 57/60 Setp: 900, ranking_loss: 0.52, id_loss: 0.44, mn_loss: 0.04593
+Epoch: 57/60 Setp: 950, ranking_loss: 0.95, id_loss: 0.13, mn_loss: -0.08321
+Epoch: 57/60 Setp: 1000, ranking_loss: 0.97, id_loss: 0.31, mn_loss: -0.09083
+Epoch: 57/60 Setp: 1050, ranking_loss: 0.84, id_loss: 0.16, mn_loss: -0.09318
+Epoch: 57/60 , ranking_loss: 0.98, id_loss: 0.13, mn_loss: -0.02672
+lr:1e-05
+lr:1.0000000000000002e-06
+Epoch: 58/60 Setp: 50, ranking_loss: 0.93, id_loss: 0.17, mn_loss: -0.04593
+Epoch: 58/60 Setp: 100, ranking_loss: 0.22, id_loss: 0.13, mn_loss: -0.08403
+Epoch: 58/60 Setp: 150, ranking_loss: 0.56, id_loss: 0.27, mn_loss: 0.07336
+Epoch: 58/60 Setp: 200, ranking_loss: 0.61, id_loss: 0.10, mn_loss: 0.18227
+Epoch: 58/60 Setp: 250, ranking_loss: 0.36, id_loss: 0.16, mn_loss: 0.04354
+Epoch: 58/60 Setp: 300, ranking_loss: 0.37, id_loss: 0.11, mn_loss: 0.02822
+Epoch: 58/60 Setp: 350, ranking_loss: 1.09, id_loss: 0.03, mn_loss: -0.05839
+Epoch: 58/60 Setp: 400, ranking_loss: 1.14, id_loss: 0.13, mn_loss: -0.00301
+Epoch: 58/60 Setp: 450, ranking_loss: 1.27, id_loss: 0.13, mn_loss: -0.06786
+Epoch: 58/60 Setp: 500, ranking_loss: 0.85, id_loss: 0.17, mn_loss: 0.04258
+Epoch: 58/60 Setp: 550, ranking_loss: 0.82, id_loss: 0.08, mn_loss: -0.09532
+Epoch: 58/60 Setp: 600, ranking_loss: 1.66, id_loss: 0.19, mn_loss: -0.05640
+Epoch: 58/60 Setp: 650, ranking_loss: 1.81, id_loss: 0.04, mn_loss: -0.04286
+Epoch: 58/60 Setp: 700, ranking_loss: 1.30, id_loss: 0.06, mn_loss: 0.03266
+Epoch: 58/60 Setp: 750, ranking_loss: 1.07, id_loss: 0.18, mn_loss: -0.06084
+Epoch: 58/60 Setp: 800, ranking_loss: 0.73, id_loss: 0.21, mn_loss: -0.00719
+Epoch: 58/60 Setp: 850, ranking_loss: 1.28, id_loss: 0.11, mn_loss: -0.08724
+Epoch: 58/60 Setp: 900, ranking_loss: 1.21, id_loss: 0.19, mn_loss: -0.06273
+Epoch: 58/60 Setp: 950, ranking_loss: 2.39, id_loss: 0.29, mn_loss: -0.09811
+Epoch: 58/60 Setp: 1000, ranking_loss: 0.51, id_loss: 0.09, mn_loss: 0.01290
+Epoch: 58/60 Setp: 1050, ranking_loss: 1.69, id_loss: 0.20, mn_loss: -0.02403
+Epoch: 58/60 , ranking_loss: 0.99, id_loss: 0.13, mn_loss: -0.02232
+lr:1e-05
+lr:1.0000000000000002e-06
+Epoch: 59/60 Setp: 50, ranking_loss: 0.42, id_loss: 0.08, mn_loss: 0.14117
+Epoch: 59/60 Setp: 100, ranking_loss: 1.35, id_loss: 0.09, mn_loss: -0.04694
+Epoch: 59/60 Setp: 150, ranking_loss: 0.54, id_loss: 0.11, mn_loss: -0.04210
+Epoch: 59/60 Setp: 200, ranking_loss: 0.49, id_loss: 0.17, mn_loss: 0.00156
+Epoch: 59/60 Setp: 250, ranking_loss: 1.60, id_loss: 0.12, mn_loss: -0.01052
+Epoch: 59/60 Setp: 300, ranking_loss: 1.60, id_loss: 0.18, mn_loss: 0.01821
+Epoch: 59/60 Setp: 350, ranking_loss: 0.55, id_loss: 0.05, mn_loss: -0.04424
+Epoch: 59/60 Setp: 400, ranking_loss: 0.59, id_loss: 0.09, mn_loss: -0.05631
+Epoch: 59/60 Setp: 450, ranking_loss: 1.94, id_loss: 0.07, mn_loss: 0.08185
+Epoch: 59/60 Setp: 500, ranking_loss: 0.40, id_loss: 0.11, mn_loss: -0.03534
+Epoch: 59/60 Setp: 550, ranking_loss: 0.39, id_loss: 0.11, mn_loss: 0.02815
+Epoch: 59/60 Setp: 600, ranking_loss: 0.69, id_loss: 0.09, mn_loss: -0.07406
+Epoch: 59/60 Setp: 650, ranking_loss: 2.31, id_loss: 0.14, mn_loss: -0.04837
+Epoch: 59/60 Setp: 700, ranking_loss: 0.39, id_loss: 0.27, mn_loss: -0.07186
+Epoch: 59/60 Setp: 750, ranking_loss: 0.79, id_loss: 0.11, mn_loss: -0.07735
+Epoch: 59/60 Setp: 800, ranking_loss: 1.17, id_loss: 0.20, mn_loss: -0.02977
+Epoch: 59/60 Setp: 850, ranking_loss: 0.94, id_loss: 0.11, mn_loss: -0.07153
+Epoch: 59/60 Setp: 900, ranking_loss: 1.11, id_loss: 0.07, mn_loss: -0.07854
+Epoch: 59/60 Setp: 950, ranking_loss: 0.23, id_loss: 0.07, mn_loss: -0.06219
+Epoch: 59/60 Setp: 1000, ranking_loss: 0.97, id_loss: 0.06, mn_loss: -0.05922
+Epoch: 59/60 Setp: 1050, ranking_loss: 1.32, id_loss: 0.10, mn_loss: -0.07424
+Epoch: 59/60 , ranking_loss: 0.98, id_loss: 0.13, mn_loss: -0.02052
+Training Done
+Namespace(GPU_id='1', adam_alpha=0.9, adam_beta=0.999, batch_size=64, caption_length_max=100, class_num=11000, cr_beta=0.1, dataroot='../dataset/CUHK-PEDES', dataset='CUHK-PEDES', device=device(type='cuda', index=1), epoch=45, epoch_decay=[20, 40], feature_length=1024, last_lstm=False, lr=0.001, margin=0.2, mode='train', model_name='MFNI_bert_stride3_64.59', part=6, pkl_root='../dataset/CUHK-PEDES/bert_processed_data/', resume='best.pth.tar', save_path='./checkpoints/CUHK-PEDES/MFNI_bert_stride3_64.59', stride=True, vocab_size=5000, wordtype='bert')

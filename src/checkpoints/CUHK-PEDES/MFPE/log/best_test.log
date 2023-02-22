@@ -1,0 +1,126 @@
+Testing Epoch: 1
+similarity_global:
+t2i: @R1: 0.3233, @R5: 0.5689, @R10: 0.68, map: 0.2805
+Testing Epoch: 1
+similarity_local:
+t2i: @R1: 0.3627, @R5: 0.6019, @R10: 0.7052, map: 0.3147
+Testing Epoch: 1
+similarity_neg_local:
+t2i: @R1: 0.3635, @R5: 0.6069, @R10: 0.7122, map: 0.3146
+Testing Epoch: 1
+similarity_neg_all:
+t2i: @R1: 0.3645, @R5: 0.6092, @R10: 0.7123, map: 0.3185
+Testing Epoch: 2
+similarity_global:
+t2i: @R1: 0.4366, @R5: 0.6675, @R10: 0.7588, map: 0.3695
+Testing Epoch: 2
+similarity_local:
+t2i: @R1: 0.4561, @R5: 0.6836, @R10: 0.7669, map: 0.3911
+Testing Epoch: 2
+similarity_all:
+t2i: @R1: 0.4646, @R5: 0.687, @R10: 0.7724, map: 0.3948
+Testing Epoch: 2
+similarity_neg_all:
+t2i: @R1: 0.467, @R5: 0.6875, @R10: 0.7737, map: 0.3967
+Testing Epoch: 3
+similarity_global:
+t2i: @R1: 0.479, @R5: 0.7118, @R10: 0.8023, map: 0.4142
+Testing Epoch: 3
+similarity_local:
+t2i: @R1: 0.4989, @R5: 0.7147, @R10: 0.8051, map: 0.429
+Testing Epoch: 3
+similarity_all:
+t2i: @R1: 0.5067, @R5: 0.7237, @R10: 0.8119, map: 0.4356
+Testing Epoch: 4
+similarity_global:
+t2i: @R1: 0.5083, @R5: 0.7341, @R10: 0.8176, map: 0.4344
+Testing Epoch: 4
+similarity_local:
+t2i: @R1: 0.5159, @R5: 0.7391, @R10: 0.8199, map: 0.4468
+Testing Epoch: 4
+similarity_neg_local:
+t2i: @R1: 0.5213, @R5: 0.7385, @R10: 0.8197, map: 0.4468
+Testing Epoch: 4
+similarity_all:
+t2i: @R1: 0.5263, @R5: 0.7435, @R10: 0.8267, map: 0.4547
+Testing Epoch: 4
+similarity_neg_all:
+t2i: @R1: 0.5302, @R5: 0.7487, @R10: 0.8278, map: 0.4593
+Testing Epoch: 5
+similarity_global:
+t2i: @R1: 0.5344, @R5: 0.7497, @R10: 0.827, map: 0.4543
+Testing Epoch: 5
+similarity_local:
+t2i: @R1: 0.5391, @R5: 0.7511, @R10: 0.8338, map: 0.4623
+Testing Epoch: 5
+similarity_all:
+t2i: @R1: 0.5489, @R5: 0.7601, @R10: 0.8364, map: 0.4694
+Testing Epoch: 5
+similarity_neg_all:
+t2i: @R1: 0.5549, @R5: 0.7628, @R10: 0.8385, map: 0.475
+Testing Epoch: 6
+similarity_neg_all:
+t2i: @R1: 0.558, @R5: 0.7606, @R10: 0.8379, map: 0.4717
+Testing Epoch: 7
+similarity_all:
+t2i: @R1: 0.5666, @R5: 0.7697, @R10: 0.8455, map: 0.4808
+Testing Epoch: 7
+similarity_neg_all:
+t2i: @R1: 0.5716, @R5: 0.7768, @R10: 0.8491, map: 0.4853
+Testing Epoch: 8
+similarity_all:
+t2i: @R1: 0.5793, @R5: 0.7794, @R10: 0.8541, map: 0.4938
+Testing Epoch: 8
+similarity_neg_all:
+t2i: @R1: 0.5807, @R5: 0.7859, @R10: 0.858, map: 0.4971
+Testing Epoch: 9
+similarity_all:
+t2i: @R1: 0.5848, @R5: 0.7851, @R10: 0.8571, map: 0.4982
+Testing Epoch: 9
+similarity_neg_all:
+t2i: @R1: 0.5954, @R5: 0.7913, @R10: 0.8613, map: 0.5058
+Testing Epoch: 11
+similarity_neg_all:
+t2i: @R1: 0.6001, @R5: 0.7969, @R10: 0.8683, map: 0.5091
+Testing Epoch: 13
+similarity_neg_all:
+t2i: @R1: 0.6072, @R5: 0.8005, @R10: 0.8648, map: 0.5187
+Testing Epoch: 14
+similarity_neg_all:
+t2i: @R1: 0.6088, @R5: 0.8067, @R10: 0.8736, map: 0.5171
+Testing Epoch: 16
+similarity_neg_all:
+t2i: @R1: 0.6116, @R5: 0.809, @R10: 0.8712, map: 0.5247
+Testing Epoch: 18
+similarity_neg_all:
+t2i: @R1: 0.6139, @R5: 0.8051, @R10: 0.8655, map: 0.5182
+Testing Epoch: 19
+similarity_neg_all:
+t2i: @R1: 0.6176, @R5: 0.8043, @R10: 0.8702, map: 0.5225
+Testing Epoch: 21
+similarity_local:
+t2i: @R1: 0.6212, @R5: 0.8112, @R10: 0.8754, map: 0.5257
+Testing Epoch: 21
+similarity_all:
+t2i: @R1: 0.6267, @R5: 0.8158, @R10: 0.8757, map: 0.5311
+Testing Epoch: 21
+similarity_neg_all:
+t2i: @R1: 0.6404, @R5: 0.8285, @R10: 0.8878, map: 0.5435
+Testing Epoch: 22
+similarity_neg_all:
+t2i: @R1: 0.6449, @R5: 0.8293, @R10: 0.8908, map: 0.5456
+Testing Epoch: 26
+similarity_neg_all:
+t2i: @R1: 0.6459, @R5: 0.8281, @R10: 0.8912, map: 0.5486
+Testing Epoch: 0
+similarity_global:
+t2i: @R1: 0.6184, @R5: 0.8147, @R10: 0.8741, map: 0.5228
+Testing Epoch: 0
+similarity_local:
+t2i: @R1: 0.6244, @R5: 0.8088, @R10: 0.8723, map: 0.5269
+Testing Epoch: 0
+similarity_all:
+t2i: @R1: 0.6301, @R5: 0.8176, @R10: 0.879, map: 0.5337
+Testing Epoch: 0
+similarity_neg_all:
+t2i: @R1: 0.6459, @R5: 0.8281, @R10: 0.8912, map: 0.5486
