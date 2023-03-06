@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/)
 ![PyTorch](https://img.shields.io/badge/pytorch-1.5.0-%237732a8)
 
-We provide the code for reproducing result of our  paper **Mining False Positive Examples for Text-Based Person Re-indentification**.
+We provide the code for reproducing the result of our  paper **Mining False Positive Examples for Text-Based Person Re-identification**.
 
 ## Getting Started
 #### Dataset Preparation
