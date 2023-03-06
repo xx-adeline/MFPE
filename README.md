@@ -1,4 +1,4 @@
-# Mining False Positive Examples for Text-Based Person Re-indentification
+# Mining False Positive Examples for Text-Based Person Re-identification
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-green)](https://github.com/taksau/GPS-Net/blob/master/LICENSE)
 [![Python](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/)
