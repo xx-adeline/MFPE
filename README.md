@@ -38,7 +38,7 @@ We provide the code for reproducing result of our  paper **Mining False Positive
    python train.py
    ~~~
 #### Evaluation
-   We provide the [best models](https://drive.google.com/file/d/1WK1aCDYtNnfJySRoJAqX6mV2ODm_J1a0/view?usp=share_link) for evaluation.
+   We provide the [best models](https://drive.google.com/file/d/1WK1aCDYtNnfJySRoJAqX6mV2ODm_J1a0/view?usp=share_link) for evaluation, and its log is in `src\checkpoints\CUHK-PEDES\MFPE\log`.
    ~~~
    cd MFPE/src
    python test.py --resume=best_64.59.pth
