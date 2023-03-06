@@ -16,9 +16,8 @@ def main(opt):
     test_img_dataloader, test_txt_dataloader = get_dataloader(opt)
     network = TextImgPersonReidNet(opt).to(opt.device)
 
-    if opt.resume == 'restart':
-        check_point = torch.load(os.path.join(opt.save_path, 'model', opt.resume))
-        network.load_state_dict(check_point["network"])
+    check_point = torch.load(os.path.join(opt.save_path, 'model', opt.resume))
+    network.load_state_dict(check_point["network"])
 
     network.eval()
     test(opt, 0, network, test_img_dataloader, test_txt_dataloader, 0)

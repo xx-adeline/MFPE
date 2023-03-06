@@ -112,15 +112,3 @@ t2i: @R1: 0.6449, @R5: 0.8293, @R10: 0.8908, map: 0.5456
 Testing Epoch: 26
 similarity_neg_all:
 t2i: @R1: 0.6459, @R5: 0.8281, @R10: 0.8912, map: 0.5486
-Testing Epoch: 0
-similarity_global:
-t2i: @R1: 0.6184, @R5: 0.8147, @R10: 0.8741, map: 0.5228
-Testing Epoch: 0
-similarity_local:
-t2i: @R1: 0.6244, @R5: 0.8088, @R10: 0.8723, map: 0.5269
-Testing Epoch: 0
-similarity_all:
-t2i: @R1: 0.6301, @R5: 0.8176, @R10: 0.879, map: 0.5337
-Testing Epoch: 0
-similarity_neg_all:
-t2i: @R1: 0.6459, @R5: 0.8281, @R10: 0.8912, map: 0.5486

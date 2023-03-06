@@ -17,7 +17,7 @@ class options():
     def __init__(self):
         self._par = argparse.ArgumentParser(description='options for Deep Cross Modal')
 
-        self._par.add_argument('--model_name', type=str, default='new', help='experiment name')
+        self._par.add_argument('--model_name', type=str, default='MFPE', help='experiment name')
         self._par.add_argument('--mode', type=str, default='train', help='choose mode [train or test]')
         self._par.add_argument('--resume', type=str, default='restart',
                                help='Since the last time the model was trained')

@@ -216,6 +216,9 @@ def test(opt, epoch, network, img_dataloader, txt_dataloader, best, return_flag=
     best = write_result(similarity_local, img_labels, txt_labels, 'similarity_local:',
                         txt_root, best_txt_root, epoch, best)
 
+    best = write_result(similarity_neg_local, img_labels, txt_labels, 'similarity_neg_local:',
+                        txt_root, best_txt_root, epoch, best)
+
     best = write_result(similarity_all, img_labels, txt_labels, 'similarity_all:',
                         txt_root, best_txt_root, epoch, best)
 
