@@ -12,7 +12,7 @@ Created on Thurs., Aug. 1(st), 2019 at 20:10
 import sys, os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, BASE_DIR)
-from ssan_bert.utils.read_write_data import read_json, makedir, save_dict, write_txt
+from src.utils.read_write_data import read_json, makedir, save_dict, write_txt
 import argparse
 from collections import namedtuple
 import os
